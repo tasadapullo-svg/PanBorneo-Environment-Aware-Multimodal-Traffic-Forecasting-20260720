@@ -1,0 +1,1 @@
+Rows follow node_order_verified/corridor_km. Weather fields originate from Open-Meteo Historical Weather API mappings; atmospheric fields are CAMS-derived gridded composition mappings, not roadside observations.

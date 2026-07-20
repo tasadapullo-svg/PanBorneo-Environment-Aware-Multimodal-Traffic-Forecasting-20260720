@@ -1,0 +1,17 @@
+{
+  "model": "UQ_T1_traffic_only",
+  "horizon": 1,
+  "seed": 20260718,
+  "nominal_coverage": 0.9,
+  "finite_sample_quantile_level": 0.9002184996358339,
+  "conformal_correction": 0.0,
+  "calibration_samples": 6865,
+  "calibration_start": "2026-02-10 11:00:00",
+  "calibration_end": "2026-02-16 14:00:00",
+  "calibration_partition": "calibration",
+  "test_used_for_calibration": false,
+  "calibration_quantile_crossing_rows_before_sort": 1244,
+  "test_quantile_crossing_rows_before_sort": 2193,
+  "quantile_crossing_rule": "row-wise monotone sorting before conformal calibration",
+  "nonconformity_rule": "max(q05-y, y-q95, 0)"
+}

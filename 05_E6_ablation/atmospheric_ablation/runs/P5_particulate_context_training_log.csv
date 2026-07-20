@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,train_samples,validation_samples,test_samples,input_feature_count,encoded_feature_count,best_iteration,best_validation_MAE,elapsed_seconds,test_used_for_selection
+atmospheric_ablation,P5_particulate_context,1,42,new_fixed_protocol_fit,68963,14337,13641,29,81,265,0.8324494888370586,1.3349926471710205,False
+atmospheric_ablation,P5_particulate_context,1,2025,new_fixed_protocol_fit,68963,14337,13641,29,81,267,0.8291197840186469,1.4360003471374512,False
+atmospheric_ablation,P5_particulate_context,1,20260623,new_fixed_protocol_fit,68963,14337,13641,29,81,291,0.8258828879350597,1.4260001182556152,False
+atmospheric_ablation,P5_particulate_context,1,20260715,new_fixed_protocol_fit,68963,14337,13641,29,81,258,0.8302080041736773,1.3730919361114502,False
+atmospheric_ablation,P5_particulate_context,1,20260718,new_fixed_protocol_fit,68963,14337,13641,29,81,244,0.8346382361156152,1.2629954814910889,False
+atmospheric_ablation,P5_particulate_context,3,42,new_fixed_protocol_fit,68870,14235,13539,29,81,216,0.9807777060430679,1.2430751323699951,False
+atmospheric_ablation,P5_particulate_context,3,2025,new_fixed_protocol_fit,68870,14235,13539,29,81,226,0.988338027353826,1.1929962635040283,False
+atmospheric_ablation,P5_particulate_context,3,20260623,new_fixed_protocol_fit,68870,14235,13539,29,81,237,0.9786582566245547,1.3320035934448242,False
+atmospheric_ablation,P5_particulate_context,3,20260715,new_fixed_protocol_fit,68870,14235,13539,29,81,219,0.9894461478691249,1.1879985332489014,False
+atmospheric_ablation,P5_particulate_context,3,20260718,new_fixed_protocol_fit,68870,14235,13539,29,81,222,0.980111879510213,1.1900088787078857,False
+atmospheric_ablation,P5_particulate_context,6,42,new_fixed_protocol_fit,68717,14084,13387,29,81,217,1.0598266168738997,1.1550047397613525,False
+atmospheric_ablation,P5_particulate_context,6,2025,new_fixed_protocol_fit,68717,14084,13387,29,81,212,1.0715675187429154,1.1709985733032227,False
+atmospheric_ablation,P5_particulate_context,6,20260623,new_fixed_protocol_fit,68717,14084,13387,29,81,250,1.0633099031055626,1.3550012111663818,False
+atmospheric_ablation,P5_particulate_context,6,20260715,new_fixed_protocol_fit,68717,14084,13387,29,81,193,1.0755069706122395,1.1330015659332275,False
+atmospheric_ablation,P5_particulate_context,6,20260718,new_fixed_protocol_fit,68717,14084,13387,29,81,226,1.0673501172616922,1.2259960174560547,False

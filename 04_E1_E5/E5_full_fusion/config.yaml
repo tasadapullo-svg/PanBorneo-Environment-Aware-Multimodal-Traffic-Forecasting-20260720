@@ -1,0 +1,126 @@
+experiment: E5_full_fusion
+model: E5_full_fusion_xgboost
+backbone: XGBoost fixed tabular backbone
+features:
+- current_speed_input
+- free_flow_speed_input
+- current_travel_time_input
+- tti_input
+- speed_ratio_input
+- speed_drop_input
+- travel_time_delay_input
+- speed_deficit_ratio_input
+- missing_mask
+- gap_length_steps
+- coverage_ratio_6h
+- coverage_ratio_24h
+- volatility_tti_3h
+- volatility_tti_6h
+- confidence_input
+- reliability_score
+- hour_sin
+- hour_cos
+- dayofweek_sin
+- dayofweek_cos
+- is_weekend
+- is_public_holiday
+- is_school_holiday
+- is_holiday_eve
+- is_day_after_holiday
+- precipitation
+- rain_flag
+- rain_lag_1h
+- rain_lag_3h
+- rain_lag_6h
+- rain_sum_3h
+- rain_sum_6h
+- rain_sum_12h
+- rain_sum_24h
+- rain_max_3h
+- rain_max_6h
+- post_rain_1_3h
+- post_rain_4_6h
+- post_rain_7_12h
+- rain_missing_flag
+- temperature_2m
+- relative_humidity_2m
+- dew_point_2m
+- surface_pressure
+- wind_speed_10m
+- wind_gusts_10m
+- wind_u
+- wind_v
+- wind_calm_flag
+- wind_gust_ratio
+- wind_gust_ratio_missing_flag
+- cloud_cover
+- boundary_layer_height
+- shortwave_radiation
+- weather_missing_flag
+- pm2_5
+- pm10
+- nitrogen_dioxide
+- carbon_monoxide
+- ozone
+- sulphur_dioxide
+- aerosol_optical_depth
+- dust
+- pm2_5_lag_1h
+- pm2_5_lag_3h
+- pm2_5_lag_6h
+- pm2_5_mean_3h
+- pm2_5_mean_6h
+- pm2_5_mean_24h
+- aerosol_optical_depth_lag_1h
+- aerosol_optical_depth_lag_3h
+- aerosol_optical_depth_lag_6h
+- aerosol_optical_depth_mean_3h
+- aerosol_optical_depth_mean_6h
+- aerosol_optical_depth_mean_24h
+- nitrogen_dioxide_lag_1h
+- nitrogen_dioxide_lag_3h
+- nitrogen_dioxide_lag_6h
+- nitrogen_dioxide_mean_3h
+- nitrogen_dioxide_mean_6h
+- nitrogen_dioxide_mean_24h
+- ozone_mean_8h
+- air_quality_missing_flag
+- corridor_km
+- elevation_m
+- road_class
+- lane_count
+- lane_count_missing_flag
+- urban_rural
+- distance_to_nearest_junction
+- osm_bridge_tagged
+- distance_to_settlement
+- distance_to_major_intersection
+node_identity: training-category one-hot
+horizons:
+- 1
+- 3
+- 6
+seeds:
+- 42
+- 2025
+- 20260623
+- 20260715
+- 20260718
+model_selection_split: validation
+test_used_for_selection: false
+xgboost_parameters_except_seed:
+  n_estimators: 700
+  max_depth: 6
+  learning_rate: 0.03
+  min_child_weight: 5
+  subsample: 0.85
+  colsample_bytree: 0.85
+  reg_lambda: 5.0
+  reg_alpha: 0.05
+  objective: reg:squarederror
+  eval_metric: mae
+  tree_method: hist
+  device: cuda
+  random_state: per_seed
+  n_jobs: 4
+  early_stopping_rounds: 60

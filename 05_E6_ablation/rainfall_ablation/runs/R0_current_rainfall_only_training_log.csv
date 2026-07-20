@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,train_samples,validation_samples,test_samples,input_feature_count,encoded_feature_count,best_iteration,best_validation_MAE,elapsed_seconds,test_used_for_selection
+rainfall_ablation,R0_current_rainfall_only,1,42,new_fixed_protocol_fit,68963,14337,13641,26,78,311,0.8153701958367289,1.8920056819915771,False
+rainfall_ablation,R0_current_rainfall_only,1,2025,new_fixed_protocol_fit,68963,14337,13641,26,78,310,0.8220610016267187,1.5580072402954102,False
+rainfall_ablation,R0_current_rainfall_only,1,20260623,new_fixed_protocol_fit,68963,14337,13641,26,78,323,0.8153695825370708,1.584679126739502,False
+rainfall_ablation,R0_current_rainfall_only,1,20260715,new_fixed_protocol_fit,68963,14337,13641,26,78,349,0.8126647427980559,1.6370067596435547,False
+rainfall_ablation,R0_current_rainfall_only,1,20260718,new_fixed_protocol_fit,68963,14337,13641,26,78,443,0.8124843934527366,1.9949955940246582,False
+rainfall_ablation,R0_current_rainfall_only,3,42,new_fixed_protocol_fit,68870,14235,13539,26,78,395,0.8953455111333098,1.7779924869537354,False
+rainfall_ablation,R0_current_rainfall_only,3,2025,new_fixed_protocol_fit,68870,14235,13539,26,78,362,0.8971005830004377,1.7230966091156006,False
+rainfall_ablation,R0_current_rainfall_only,3,20260623,new_fixed_protocol_fit,68870,14235,13539,26,78,344,0.898994680149412,1.6609456539154053,False
+rainfall_ablation,R0_current_rainfall_only,3,20260715,new_fixed_protocol_fit,68870,14235,13539,26,78,359,0.900612911308779,1.6810595989227295,False
+rainfall_ablation,R0_current_rainfall_only,3,20260718,new_fixed_protocol_fit,68870,14235,13539,26,78,301,0.8981570681648,1.461076021194458,False
+rainfall_ablation,R0_current_rainfall_only,6,42,new_fixed_protocol_fit,68717,14084,13387,26,78,316,0.9351166132260913,1.5239992141723633,False
+rainfall_ablation,R0_current_rainfall_only,6,2025,new_fixed_protocol_fit,68717,14084,13387,26,78,296,0.9403947743798007,1.437009572982788,False
+rainfall_ablation,R0_current_rainfall_only,6,20260623,new_fixed_protocol_fit,68717,14084,13387,26,78,346,0.9323667196074997,1.704991102218628,False
+rainfall_ablation,R0_current_rainfall_only,6,20260715,new_fixed_protocol_fit,68717,14084,13387,26,78,428,0.9362029463213569,1.8920700550079346,False
+rainfall_ablation,R0_current_rainfall_only,6,20260718,new_fixed_protocol_fit,68717,14084,13387,26,78,294,0.937163994075967,1.4469971656799316,False

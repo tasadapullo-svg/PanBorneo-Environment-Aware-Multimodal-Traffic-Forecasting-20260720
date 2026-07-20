@@ -1,0 +1,37 @@
+﻿scenario,scenario_label,row_order,horizon,model,model_display,column_order,seed_count,sample_count,PICP_mean,nominal_coverage,coverage_minus_nominal,coverage_at_or_above_nominal,MPIW_mean,picp_vmin,picp_vmax,mpiw_vmin,mpiw_vmax
+S1_dry,Dry,0,1,UQ_T1_traffic_only,Traffic-only,0,5,5492.0,0.9479242534595776,0.9,0.047924253459577626,True,14.709701125776345,0.9,0.965,13.0,18.5
+S1_dry,Dry,0,1,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,1,5,5492.0,0.9422068463219228,0.9,0.04220684632192273,True,14.643732077174176,0.9,0.965,13.0,18.5
+S1_dry,Dry,0,1,UQ_aux_full_fusion,Full fusion,2,5,5492.0,0.9386016023306628,0.9,0.03860160233066279,True,14.815521911418273,0.9,0.965,13.0,18.5
+S1_dry,Dry,0,3,UQ_T1_traffic_only,Traffic-only,3,5,5322.0,0.9482901164975572,0.9,0.04829011649755721,True,14.266131205668083,0.9,0.965,13.0,18.5
+S1_dry,Dry,0,3,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,4,5,5322.0,0.9420142803457344,0.9,0.0420142803457344,True,14.233001150111871,0.9,0.965,13.0,18.5
+S1_dry,Dry,0,3,UQ_aux_full_fusion,Full fusion,5,5,5322.0,0.9454340473506202,0.9,0.04543404735062018,True,14.786125975432856,0.9,0.965,13.0,18.5
+S1_dry,Dry,0,6,UQ_T1_traffic_only,Traffic-only,6,5,5123.0,0.94756978333008,0.9,0.047569783330079995,True,13.82589013894368,0.9,0.965,13.0,18.5
+S1_dry,Dry,0,6,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,7,5,5123.0,0.9406597696662112,0.9,0.04065976966621121,True,13.799601026151928,0.9,0.965,13.0,18.5
+S1_dry,Dry,0,6,UQ_aux_full_fusion,Full fusion,8,5,5123.0,0.9455006831934412,0.9,0.04550068319344114,True,14.426910763021422,0.9,0.965,13.0,18.5
+S2_rain,Rain,1,1,UQ_T1_traffic_only,Traffic-only,0,5,8149.0,0.9628420665112284,0.9,0.06284206651122837,True,13.331679041000331,0.9,0.965,13.0,18.5
+S2_rain,Rain,1,1,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,1,5,8149.0,0.9577862314394404,0.9,0.057786231439440394,True,13.349143550094322,0.9,0.965,13.0,18.5
+S2_rain,Rain,1,1,UQ_aux_full_fusion,Full fusion,2,5,8149.0,0.9615903791876304,0.9,0.06159037918763033,True,14.280171725518542,0.9,0.965,13.0,18.5
+S2_rain,Rain,1,3,UQ_T1_traffic_only,Traffic-only,3,5,8217.0,0.9522696847998052,0.9,0.052269684799805205,True,14.064543298835286,0.9,0.965,13.0,18.5
+S2_rain,Rain,1,3,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,4,5,8217.0,0.9505172203967384,0.9,0.05051722039673834,True,14.038253409023689,0.9,0.965,13.0,18.5
+S2_rain,Rain,1,3,UQ_aux_full_fusion,Full fusion,5,5,8217.0,0.9514908117317756,0.9,0.05149081173177561,True,14.65372259412294,0.9,0.965,13.0,18.5
+S2_rain,Rain,1,6,UQ_T1_traffic_only,Traffic-only,6,5,8264.0,0.9469990319457888,0.9,0.046999031945788805,True,14.485836356145484,0.9,0.965,13.0,18.5
+S2_rain,Rain,1,6,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,7,5,8264.0,0.9449903194578896,0.9,0.04499031945788956,True,14.481214909908962,0.9,0.965,13.0,18.5
+S2_rain,Rain,1,6,UQ_aux_full_fusion,Full fusion,8,5,8264.0,0.9487899322362052,0.9,0.0487899322362052,True,15.212395116366585,0.9,0.965,13.0,18.5
+S7_elevated_aod,Elevated AOD,2,1,UQ_T1_traffic_only,Traffic-only,0,5,3548.0,0.94695603156708,0.9,0.04695603156707995,True,15.47023777687563,0.9,0.965,13.0,18.5
+S7_elevated_aod,Elevated AOD,2,1,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,1,5,3548.0,0.944588500563698,0.9,0.04458850056369801,True,15.418478412370131,0.9,0.965,13.0,18.5
+S7_elevated_aod,Elevated AOD,2,1,UQ_aux_full_fusion,Full fusion,2,5,3548.0,0.947576099210823,0.9,0.04757609921082295,True,15.646722576502617,0.9,0.965,13.0,18.5
+S7_elevated_aod,Elevated AOD,2,3,UQ_T1_traffic_only,Traffic-only,3,5,3517.0,0.924936025021325,0.9,0.02493602502132497,True,15.526864048836076,0.9,0.965,13.0,18.5
+S7_elevated_aod,Elevated AOD,2,3,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,4,5,3517.0,0.9222064259311914,0.9,0.022206425931191376,True,15.503971615710787,0.9,0.965,13.0,18.5
+S7_elevated_aod,Elevated AOD,2,3,UQ_aux_full_fusion,Full fusion,5,5,3517.0,0.9353426215524594,0.9,0.035342621552459375,True,15.70329590125758,0.9,0.965,13.0,18.5
+S7_elevated_aod,Elevated AOD,2,6,UQ_T1_traffic_only,Traffic-only,6,5,3492.0,0.9207331042382588,0.9,0.020733104238258804,True,15.381186701041589,0.9,0.965,13.0,18.5
+S7_elevated_aod,Elevated AOD,2,6,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,7,5,3492.0,0.9218785796105384,0.9,0.021878579610538407,True,15.48528142090106,0.9,0.965,13.0,18.5
+S7_elevated_aod,Elevated AOD,2,6,UQ_aux_full_fusion,Full fusion,8,5,3492.0,0.9347651775486828,0.9,0.0347651775486828,True,15.452368946119137,0.9,0.965,13.0,18.5
+S8_rain_elevated_atmospheric_pollution,Compound,3,1,UQ_T1_traffic_only,Traffic-only,0,5,1917.0,0.953677621283255,0.9,0.05367762128325493,True,16.005210565438666,0.9,0.965,13.0,18.5
+S8_rain_elevated_atmospheric_pollution,Compound,3,1,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,1,5,1917.0,0.9520083463745436,0.9,0.052008346374543546,True,15.985226279444287,0.9,0.965,13.0,18.5
+S8_rain_elevated_atmospheric_pollution,Compound,3,1,UQ_aux_full_fusion,Full fusion,2,5,1917.0,0.9606677099634846,0.9,0.060667709963484584,True,16.405892507546135,0.9,0.965,13.0,18.5
+S8_rain_elevated_atmospheric_pollution,Compound,3,3,UQ_T1_traffic_only,Traffic-only,3,5,1974.0,0.9204660587639312,0.9,0.02046605876393115,True,17.208037253112174,0.9,0.965,13.0,18.5
+S8_rain_elevated_atmospheric_pollution,Compound,3,3,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,4,5,1974.0,0.919452887537994,0.9,0.019452887537994012,True,17.12227931732827,0.9,0.965,13.0,18.5
+S8_rain_elevated_atmospheric_pollution,Compound,3,3,UQ_aux_full_fusion,Full fusion,5,5,1974.0,0.9291793313069908,0.9,0.029179331306990797,True,17.364716830925136,0.9,0.965,13.0,18.5
+S8_rain_elevated_atmospheric_pollution,Compound,3,6,UQ_T1_traffic_only,Traffic-only,6,5,2081.0,0.91417587698222,0.9,0.014175876982220004,True,18.028202972888717,0.9,0.965,13.0,18.5
+S8_rain_elevated_atmospheric_pollution,Compound,3,6,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,7,5,2081.0,0.912830370014416,0.9,0.012830370014416004,True,17.985568718678785,0.9,0.965,13.0,18.5
+S8_rain_elevated_atmospheric_pollution,Compound,3,6,UQ_aux_full_fusion,Full fusion,8,5,2081.0,0.928880345987506,0.9,0.028880345987505995,True,17.70188175588202,0.9,0.965,13.0,18.5

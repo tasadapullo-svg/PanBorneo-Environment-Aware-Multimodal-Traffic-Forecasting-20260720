@@ -1,0 +1,50 @@
+{
+  "figure": "Figure 4: Overall performance of frozen multimodal configurations",
+  "generated_at": "2026-07-19T12:11:49.478752+08:00",
+  "source": "C:\\Users\\DELL\\Desktop\\多数据源数据\\2026071901\\T2_FINAL_EXPERIMENT_PACKAGE\\12_figure_source_data\\Fig4_modality_comparison\\source_data.csv",
+  "source_sha256": "64fb46f879826572fae7fba784c2541d2130655bec3482b87351fede6edbed94",
+  "source_rows": 15,
+  "experiments": [
+    "E1_traffic_only",
+    "E2_rainfall",
+    "E3_meteorology",
+    "E4_atmospheric",
+    "E5_full_fusion"
+  ],
+  "horizons_hours": [
+    1,
+    3,
+    6
+  ],
+  "seed_counts": [
+    5
+  ],
+  "split_values": [
+    "test"
+  ],
+  "relative_E5_vs_E1_MAE_change_pct": {
+    "1": 16.888329953980886,
+    "3": 19.847176094271706,
+    "6": 23.299365753047308
+  },
+  "validation_checks": [
+    "Frozen experiment set E1-E5 is complete.",
+    "Frozen horizon set is exactly 1 h, 3 h and 6 h.",
+    "All 15 experiment-horizon combinations are unique and present.",
+    "Every mean and SD is based on five seeds.",
+    "All plotted rows belong to the frozen test split.",
+    "MAE means and SDs are finite and non-negative.",
+    "E1-E5 use the same test sample count within every horizon.",
+    "E5-versus-E1 relative MAE changes were calculated directly from horizon-matched source rows."
+  ],
+  "all_checks_passed": true,
+  "design": {
+    "single_figure": true,
+    "panel_labels": false,
+    "metric": "MAE",
+    "bar_chart": false,
+    "error_bar": "MAE_mean ± MAE_std",
+    "significance_stars": false,
+    "redundant_series_encoding": "colour + marker + line style"
+  }
+}

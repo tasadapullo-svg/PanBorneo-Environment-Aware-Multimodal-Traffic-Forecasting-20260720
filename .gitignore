@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime/cache
+.cache/
+.tmp/
+tmp/
+
+# Large regenerated outputs (kept in local full backup)
+**/best_checkpoint/
+**/*predictions*.parquet
+09_E7_UQ/runs/*.parquet
+archive/

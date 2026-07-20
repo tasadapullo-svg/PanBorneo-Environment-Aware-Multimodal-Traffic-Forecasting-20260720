@@ -1,0 +1,1 @@
+Reliability thresholds use the training split only. High is the training-observed maximum score because an upper-tertile value tie at 1.0 would otherwise create an empty group.

@@ -1,0 +1,1 @@
+PICP is empirical coverage; MPIW is mean interval width; PINAW normalizes width by the observed target range.

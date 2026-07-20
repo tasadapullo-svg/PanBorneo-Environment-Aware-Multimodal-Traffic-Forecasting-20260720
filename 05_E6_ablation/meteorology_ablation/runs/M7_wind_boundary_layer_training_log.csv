@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,train_samples,validation_samples,test_samples,input_feature_count,encoded_feature_count,best_iteration,best_validation_MAE,elapsed_seconds,test_used_for_selection
+meteorology_ablation,M7_wind_boundary_layer,1,42,new_fixed_protocol_fit,68963,14337,13641,34,86,315,0.8323924604832166,1.6540000438690186,False
+meteorology_ablation,M7_wind_boundary_layer,1,2025,new_fixed_protocol_fit,68963,14337,13641,34,86,321,0.8303768197603951,1.6749927997589111,False
+meteorology_ablation,M7_wind_boundary_layer,1,20260623,new_fixed_protocol_fit,68963,14337,13641,34,86,261,0.8283398048127888,1.4010016918182373,False
+meteorology_ablation,M7_wind_boundary_layer,1,20260715,new_fixed_protocol_fit,68963,14337,13641,34,86,252,0.8303159261553027,1.3669986724853516,False
+meteorology_ablation,M7_wind_boundary_layer,1,20260718,new_fixed_protocol_fit,68963,14337,13641,34,86,252,0.8371754625214937,1.3439955711364746,False
+meteorology_ablation,M7_wind_boundary_layer,3,42,new_fixed_protocol_fit,68870,14235,13539,34,86,264,0.9118444321488011,1.4559412002563477,False
+meteorology_ablation,M7_wind_boundary_layer,3,2025,new_fixed_protocol_fit,68870,14235,13539,34,86,273,0.9144904439140296,1.414005994796753,False
+meteorology_ablation,M7_wind_boundary_layer,3,20260623,new_fixed_protocol_fit,68870,14235,13539,34,86,249,0.9190382031252143,1.3629968166351318,False
+meteorology_ablation,M7_wind_boundary_layer,3,20260715,new_fixed_protocol_fit,68870,14235,13539,34,86,254,0.916444627435575,1.3620729446411133,False
+meteorology_ablation,M7_wind_boundary_layer,3,20260718,new_fixed_protocol_fit,68870,14235,13539,34,86,295,0.914354826401609,1.5470013618469238,False
+meteorology_ablation,M7_wind_boundary_layer,6,42,new_fixed_protocol_fit,68717,14084,13387,34,86,311,0.9448282816842752,1.5879995822906494,False
+meteorology_ablation,M7_wind_boundary_layer,6,2025,new_fixed_protocol_fit,68717,14084,13387,34,86,294,0.951577427643871,1.5980656147003174,False
+meteorology_ablation,M7_wind_boundary_layer,6,20260623,new_fixed_protocol_fit,68717,14084,13387,34,86,298,0.9468735516392958,1.5650620460510254,False
+meteorology_ablation,M7_wind_boundary_layer,6,20260715,new_fixed_protocol_fit,68717,14084,13387,34,86,329,0.9451859830895868,1.6559929847717285,False
+meteorology_ablation,M7_wind_boundary_layer,6,20260718,new_fixed_protocol_fit,68717,14084,13387,34,86,279,0.9467377628802034,1.473005771636963,False

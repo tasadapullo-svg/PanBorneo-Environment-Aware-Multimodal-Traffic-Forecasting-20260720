@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "node_count": 51,
+  "unique_node_count": 51,
+  "corridor_km_min": 0.0,
+  "corridor_km_max": 95.6899949648003,
+  "corridor_km_span": 95.6899949648003,
+  "unique_weather_grids": 15,
+  "unique_cams_grids": 9,
+  "node_order_mismatches": 0,
+  "coordinate_mismatches_vs_master": 0,
+  "failed_source_rows": 0,
+  "representative_labels": [
+    "N001",
+    "N010",
+    "N020",
+    "N030",
+    "N040",
+    "N051"
+  ],
+  "source_sha256": "74bea3c3eb3fc67b029a0eaa1a2471921698e026fd07cce3354aa5de244527ea",
+  "node_master_sha256": "3361d56d67ff25ed2094f04b355caecf84baf03da3adb250590ba55b960a6028",
+  "node_order_sha256": "3361d56d67ff25ed2094f04b355caecf84baf03da3adb250590ba55b960a6028",
+  "osm_tiles_used": 28
+}

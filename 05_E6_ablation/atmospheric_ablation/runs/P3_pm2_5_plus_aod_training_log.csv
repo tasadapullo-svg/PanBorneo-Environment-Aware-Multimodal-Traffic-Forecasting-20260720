@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,train_samples,validation_samples,test_samples,input_feature_count,encoded_feature_count,best_iteration,best_validation_MAE,elapsed_seconds,test_used_for_selection
+atmospheric_ablation,P3_pm2_5_plus_aod,1,42,new_fixed_protocol_fit,68963,14337,13641,28,80,264,0.8328991888822801,1.34200119972229,False
+atmospheric_ablation,P3_pm2_5_plus_aod,1,2025,new_fixed_protocol_fit,68963,14337,13641,28,80,251,0.8333797811372614,1.2659990787506104,False
+atmospheric_ablation,P3_pm2_5_plus_aod,1,20260623,new_fixed_protocol_fit,68963,14337,13641,28,80,306,0.831810209220146,1.5040006637573242,False
+atmospheric_ablation,P3_pm2_5_plus_aod,1,20260715,new_fixed_protocol_fit,68963,14337,13641,28,80,224,0.8302287231922116,1.181081771850586,False
+atmospheric_ablation,P3_pm2_5_plus_aod,1,20260718,new_fixed_protocol_fit,68963,14337,13641,28,80,237,0.8285395738061955,1.2389979362487793,False
+atmospheric_ablation,P3_pm2_5_plus_aod,3,42,new_fixed_protocol_fit,68870,14235,13539,28,80,212,0.975602887645704,1.2009401321411133,False
+atmospheric_ablation,P3_pm2_5_plus_aod,3,2025,new_fixed_protocol_fit,68870,14235,13539,28,80,212,0.9914903591840695,1.1979947090148926,False
+atmospheric_ablation,P3_pm2_5_plus_aod,3,20260623,new_fixed_protocol_fit,68870,14235,13539,28,80,227,0.9812354955750262,1.231081485748291,False
+atmospheric_ablation,P3_pm2_5_plus_aod,3,20260715,new_fixed_protocol_fit,68870,14235,13539,28,80,246,0.9767573838657692,1.2830665111541748,False
+atmospheric_ablation,P3_pm2_5_plus_aod,3,20260718,new_fixed_protocol_fit,68870,14235,13539,28,80,230,0.9782134972248405,1.223996877670288,False
+atmospheric_ablation,P3_pm2_5_plus_aod,6,42,new_fixed_protocol_fit,68717,14084,13387,28,80,207,1.057674300971948,1.1789960861206055,False
+atmospheric_ablation,P3_pm2_5_plus_aod,6,2025,new_fixed_protocol_fit,68717,14084,13387,28,80,209,1.0628097748695466,1.1670029163360596,False
+atmospheric_ablation,P3_pm2_5_plus_aod,6,20260623,new_fixed_protocol_fit,68717,14084,13387,28,80,194,1.0723815986765477,1.088064193725586,False
+atmospheric_ablation,P3_pm2_5_plus_aod,6,20260715,new_fixed_protocol_fit,68717,14084,13387,28,80,199,1.0508941545028707,1.1009845733642578,False
+atmospheric_ablation,P3_pm2_5_plus_aod,6,20260718,new_fixed_protocol_fit,68717,14084,13387,28,80,220,1.0542242977301595,1.1869990825653076,False

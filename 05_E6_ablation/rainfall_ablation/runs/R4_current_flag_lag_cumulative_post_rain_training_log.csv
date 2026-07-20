@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,train_samples,validation_samples,test_samples,input_feature_count,encoded_feature_count,best_iteration,best_validation_MAE,elapsed_seconds,test_used_for_selection
+rainfall_ablation,R4_current_flag_lag_cumulative_post_rain,1,42,new_fixed_protocol_fit,68963,14337,13641,37,89,263,0.8313556429547745,1.3470704555511475,False
+rainfall_ablation,R4_current_flag_lag_cumulative_post_rain,1,2025,new_fixed_protocol_fit,68963,14337,13641,37,89,232,0.8301065521708524,1.2500014305114746,False
+rainfall_ablation,R4_current_flag_lag_cumulative_post_rain,1,20260623,new_fixed_protocol_fit,68963,14337,13641,37,89,265,0.830968011761756,1.3640000820159912,False
+rainfall_ablation,R4_current_flag_lag_cumulative_post_rain,1,20260715,new_fixed_protocol_fit,68963,14337,13641,37,89,264,0.8244592243968056,1.3890011310577393,False
+rainfall_ablation,R4_current_flag_lag_cumulative_post_rain,1,20260718,new_fixed_protocol_fit,68963,14337,13641,37,89,344,0.8316255050481443,1.7210783958435059,False
+rainfall_ablation,R4_current_flag_lag_cumulative_post_rain,3,42,new_fixed_protocol_fit,68870,14235,13539,37,89,290,0.9299481349364891,1.5740585327148438,False
+rainfall_ablation,R4_current_flag_lag_cumulative_post_rain,3,2025,new_fixed_protocol_fit,68870,14235,13539,37,89,298,0.93575047424981,1.4969964027404785,False
+rainfall_ablation,R4_current_flag_lag_cumulative_post_rain,3,20260623,new_fixed_protocol_fit,68870,14235,13539,37,89,294,0.9400623637749767,1.4909958839416504,False
+rainfall_ablation,R4_current_flag_lag_cumulative_post_rain,3,20260715,new_fixed_protocol_fit,68870,14235,13539,37,89,282,0.9352012817843738,1.5070018768310547,False
+rainfall_ablation,R4_current_flag_lag_cumulative_post_rain,3,20260718,new_fixed_protocol_fit,68870,14235,13539,37,89,303,0.9375261134585456,1.565000057220459,False
+rainfall_ablation,R4_current_flag_lag_cumulative_post_rain,6,42,new_fixed_protocol_fit,68717,14084,13387,37,89,285,0.9655276923923118,1.4820034503936768,False
+rainfall_ablation,R4_current_flag_lag_cumulative_post_rain,6,2025,new_fixed_protocol_fit,68717,14084,13387,37,89,280,0.9724734975884699,1.4449989795684814,False
+rainfall_ablation,R4_current_flag_lag_cumulative_post_rain,6,20260623,new_fixed_protocol_fit,68717,14084,13387,37,89,231,0.9727617977221423,1.2720129489898682,False
+rainfall_ablation,R4_current_flag_lag_cumulative_post_rain,6,20260715,new_fixed_protocol_fit,68717,14084,13387,37,89,330,0.9718198563625311,1.7290725708007812,False
+rainfall_ablation,R4_current_flag_lag_cumulative_post_rain,6,20260718,new_fixed_protocol_fit,68717,14084,13387,37,89,295,0.9730687351329731,1.501929759979248,False

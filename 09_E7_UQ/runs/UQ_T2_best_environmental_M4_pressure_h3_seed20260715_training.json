@@ -1,0 +1,17 @@
+{
+  "model": "UQ_T2_best_environmental_M4_pressure",
+  "horizon": 3,
+  "seed": 20260715,
+  "feature_count": 27,
+  "encoded_feature_count": 79,
+  "train_samples": 68870,
+  "tuning_samples": 7471,
+  "calibration_samples": 6764,
+  "test_samples": 13539,
+  "best_iteration": 699,
+  "best_tuning_quantile_loss": 0.33591424923428603,
+  "elapsed_seconds": 9.056999206542969,
+  "test_used_for_model_selection": false,
+  "checkpoint": "09_E7_UQ\\best_checkpoint\\UQ_T2_best_environmental_M4_pressure_h3_seed20260715.json",
+  "checkpoint_sha256": "510f99084e59f40f3daaf8219044926432548f17191f2404eda3d9e226b109f5"
+}

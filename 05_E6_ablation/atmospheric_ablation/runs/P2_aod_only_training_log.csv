@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,train_samples,validation_samples,test_samples,input_feature_count,encoded_feature_count,best_iteration,best_validation_MAE,elapsed_seconds,test_used_for_selection
+atmospheric_ablation,P2_aod_only,1,42,new_fixed_protocol_fit,68963,14337,13641,27,79,414,0.8174773161236841,1.8229925632476807,False
+atmospheric_ablation,P2_aod_only,1,2025,new_fixed_protocol_fit,68963,14337,13641,27,79,253,0.8207673131816763,1.3110651969909668,False
+atmospheric_ablation,P2_aod_only,1,20260623,new_fixed_protocol_fit,68963,14337,13641,27,79,301,0.8179643357856891,1.476996660232544,False
+atmospheric_ablation,P2_aod_only,1,20260715,new_fixed_protocol_fit,68963,14337,13641,27,79,319,0.8186331982641545,1.5219988822937012,False
+atmospheric_ablation,P2_aod_only,1,20260718,new_fixed_protocol_fit,68963,14337,13641,27,79,267,0.8208453014837014,1.374044418334961,False
+atmospheric_ablation,P2_aod_only,3,42,new_fixed_protocol_fit,68870,14235,13539,27,79,211,0.9708031972249349,1.1640009880065918,False
+atmospheric_ablation,P2_aod_only,3,2025,new_fixed_protocol_fit,68870,14235,13539,27,79,212,0.9737593586167663,1.1799802780151367,False
+atmospheric_ablation,P2_aod_only,3,20260623,new_fixed_protocol_fit,68870,14235,13539,27,79,222,0.9789898548454496,1.1810007095336914,False
+atmospheric_ablation,P2_aod_only,3,20260715,new_fixed_protocol_fit,68870,14235,13539,27,79,252,0.9698629078464756,1.285999059677124,False
+atmospheric_ablation,P2_aod_only,3,20260718,new_fixed_protocol_fit,68870,14235,13539,27,79,214,0.9859400940477366,1.2030003070831299,False
+atmospheric_ablation,P2_aod_only,6,42,new_fixed_protocol_fit,68717,14084,13387,27,79,230,1.0115745326938428,1.2209303379058838,False
+atmospheric_ablation,P2_aod_only,6,2025,new_fixed_protocol_fit,68717,14084,13387,27,79,224,1.0139204331061882,1.1960065364837646,False
+atmospheric_ablation,P2_aod_only,6,20260623,new_fixed_protocol_fit,68717,14084,13387,27,79,245,1.0110322182505553,1.269007921218872,False
+atmospheric_ablation,P2_aod_only,6,20260715,new_fixed_protocol_fit,68717,14084,13387,27,79,240,1.0170042315046748,1.2650058269500732,False
+atmospheric_ablation,P2_aod_only,6,20260718,new_fixed_protocol_fit,68717,14084,13387,27,79,212,1.0125443716680282,1.161999225616455,False

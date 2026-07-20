@@ -1,0 +1,16 @@
+experiment,horizon,seed,train_samples,validation_samples,test_samples,encoded_feature_count,best_iteration,elapsed_seconds,selection_split,test_used_for_selection,checkpoint
+E2_rainfall,1,42,68963,14337,13641,92,263,1.7099902629852295,validation,False,E2_rainfall_h1_seed42.json
+E2_rainfall,1,2025,68963,14337,13641,92,234,1.2629990577697754,validation,False,E2_rainfall_h1_seed2025.json
+E2_rainfall,1,20260623,68963,14337,13641,92,266,1.400998592376709,validation,False,E2_rainfall_h1_seed20260623.json
+E2_rainfall,1,20260715,68963,14337,13641,92,285,1.5389950275421143,validation,False,E2_rainfall_h1_seed20260715.json
+E2_rainfall,1,20260718,68963,14337,13641,92,274,1.4249987602233887,validation,False,E2_rainfall_h1_seed20260718.json
+E2_rainfall,3,42,68870,14235,13539,92,290,1.6319911479949951,validation,False,E2_rainfall_h3_seed42.json
+E2_rainfall,3,2025,68870,14235,13539,92,266,1.4420056343078613,validation,False,E2_rainfall_h3_seed2025.json
+E2_rainfall,3,20260623,68870,14235,13539,92,338,1.6829514503479004,validation,False,E2_rainfall_h3_seed20260623.json
+E2_rainfall,3,20260715,68870,14235,13539,92,325,1.6560008525848389,validation,False,E2_rainfall_h3_seed20260715.json
+E2_rainfall,3,20260718,68870,14235,13539,92,219,1.2729992866516113,validation,False,E2_rainfall_h3_seed20260718.json
+E2_rainfall,6,42,68717,14084,13387,92,294,1.5949339866638184,validation,False,E2_rainfall_h6_seed42.json
+E2_rainfall,6,2025,68717,14084,13387,92,229,1.2850010395050049,validation,False,E2_rainfall_h6_seed2025.json
+E2_rainfall,6,20260623,68717,14084,13387,92,231,1.3199961185455322,validation,False,E2_rainfall_h6_seed20260623.json
+E2_rainfall,6,20260715,68717,14084,13387,92,291,1.539999008178711,validation,False,E2_rainfall_h6_seed20260715.json
+E2_rainfall,6,20260718,68717,14084,13387,92,277,1.4570012092590332,validation,False,E2_rainfall_h6_seed20260718.json

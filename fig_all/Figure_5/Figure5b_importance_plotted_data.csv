@@ -1,0 +1,22 @@
+﻿model,horizon,scenario,feature_group,seed_count,repetitions,sample_count,delta_MAE_mean,delta_MAE_std,delta_MAE_median,rank_within_horizon_scenario,selected_x_scale,scale_selection_reason
+E5_full_fusion_xgboost,1,Overall_test,Traffic,5,50,13641,13.199810958573709,0.0900239967031413,13.18243140968308,1.0,log,all values are strictly positive and max/min ≥ 100
+E5_full_fusion_xgboost,3,Overall_test,Traffic,5,50,13539,13.066875023526643,0.0985245727483188,13.058795275646965,1.0,log,all values are strictly positive and max/min ≥ 100
+E5_full_fusion_xgboost,6,Overall_test,Traffic,5,50,13387,12.859878712579906,0.1322836886652068,12.857531807544394,1.0,log,all values are strictly positive and max/min ≥ 100
+E5_full_fusion_xgboost,1,Overall_test,Calendar,5,50,13641,0.5074446001278673,0.0125475638164448,0.5079534709848296,2.0,log,all values are strictly positive and max/min ≥ 100
+E5_full_fusion_xgboost,3,Overall_test,Calendar,5,50,13539,0.7896564608531955,0.0276617474910814,0.7886816760774443,2.0,log,all values are strictly positive and max/min ≥ 100
+E5_full_fusion_xgboost,6,Overall_test,Calendar,5,50,13387,0.7655610298351837,0.0238056768031238,0.7611896792439089,2.0,log,all values are strictly positive and max/min ≥ 100
+E5_full_fusion_xgboost,1,Overall_test,Road,5,50,13641,0.2022881656334733,0.0267101787587567,0.198866559722552,3.0,log,all values are strictly positive and max/min ≥ 100
+E5_full_fusion_xgboost,3,Overall_test,Road,5,50,13539,0.3016338196867698,0.0240765675376222,0.3142328270453072,3.0,log,all values are strictly positive and max/min ≥ 100
+E5_full_fusion_xgboost,6,Overall_test,Road,5,50,13387,0.2129081292866099,0.0296339955586697,0.2170667365877183,4.0,log,all values are strictly positive and max/min ≥ 100
+E5_full_fusion_xgboost,1,Overall_test,Atmospheric,5,50,13641,0.0905610252917111,0.0074114586598443,0.0916442698550078,4.0,log,all values are strictly positive and max/min ≥ 100
+E5_full_fusion_xgboost,3,Overall_test,Atmospheric,5,50,13539,0.2274721006932573,0.016130522143344,0.2239138328615549,4.0,log,all values are strictly positive and max/min ≥ 100
+E5_full_fusion_xgboost,6,Overall_test,Atmospheric,5,50,13387,0.3127664019315206,0.0274003036329221,0.322546696170761,3.0,log,all values are strictly positive and max/min ≥ 100
+E5_full_fusion_xgboost,1,Overall_test,Meteorology,5,50,13641,0.0502297919470319,0.0064041202493578,0.0493261466897761,6.0,log,all values are strictly positive and max/min ≥ 100
+E5_full_fusion_xgboost,3,Overall_test,Meteorology,5,50,13539,0.0549609928098701,0.0103711322963147,0.0521826770118558,6.0,log,all values are strictly positive and max/min ≥ 100
+E5_full_fusion_xgboost,6,Overall_test,Meteorology,5,50,13387,0.1211976064471756,0.0120401651236232,0.1230747375066547,5.0,log,all values are strictly positive and max/min ≥ 100
+E5_full_fusion_xgboost,1,Overall_test,Reliability,5,50,13641,0.0862094580264856,0.0034032760067992,0.0856425097391664,5.0,log,all values are strictly positive and max/min ≥ 100
+E5_full_fusion_xgboost,3,Overall_test,Reliability,5,50,13539,0.0914323777210225,0.0042036098714731,0.0908913329271172,5.0,log,all values are strictly positive and max/min ≥ 100
+E5_full_fusion_xgboost,6,Overall_test,Reliability,5,50,13387,0.0358845188369498,0.0040812772980713,0.0343936637965233,6.0,log,all values are strictly positive and max/min ≥ 100
+E5_full_fusion_xgboost,1,Overall_test,Rainfall,5,50,13641,0.0104405542399804,0.0046649201664008,0.0097601293955305,7.0,log,all values are strictly positive and max/min ≥ 100
+E5_full_fusion_xgboost,3,Overall_test,Rainfall,5,50,13539,0.0064718991207354,0.0040424115645826,0.0072077184759257,7.0,log,all values are strictly positive and max/min ≥ 100
+E5_full_fusion_xgboost,6,Overall_test,Rainfall,5,50,13387,0.0245952029850481,0.0070929184117522,0.0262189391943945,7.0,log,all values are strictly positive and max/min ≥ 100

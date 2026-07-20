@@ -1,0 +1,57 @@
+{
+  "figure": "Figure 7: Environmental-regime-dependent prediction uncertainty",
+  "generated_at": "2026-07-19T12:25:24.675270+08:00",
+  "sources": {
+    "source_data": "C:\\Users\\DELL\\Desktop\\多数据源数据\\2026071901\\T2_FINAL_EXPERIMENT_PACKAGE\\12_figure_source_data\\Fig7_UQ_environmental_risk\\source_data.csv",
+    "data_definition": "C:\\Users\\DELL\\Desktop\\多数据源数据\\2026071901\\T2_FINAL_EXPERIMENT_PACKAGE\\12_figure_source_data\\Fig7_UQ_environmental_risk\\data_definition.txt",
+    "caption_draft": "C:\\Users\\DELL\\Desktop\\多数据源数据\\2026071901\\T2_FINAL_EXPERIMENT_PACKAGE\\12_figure_source_data\\Fig7_UQ_environmental_risk\\figure_caption_draft.txt"
+  },
+  "source_sha256": {
+    "source_data": "2b412c65f8874d553a5a9ca877ff2cf046c036ce5bed615bbb2b3b3bf2a01559",
+    "data_definition": "bcbe4c77087e228d6ab1e84ae48d3a796f759db936770b8da29957aeb2828a9c",
+    "caption_draft": "a16344b55f594076646f2b9e932d3b4386fadb9d4e28e4bdb1ddc84307d72ce3"
+  },
+  "source_rows": 36,
+  "nominal_coverage": 0.9,
+  "coverage_at_or_above_nominal_cells": 36,
+  "coverage_below_nominal_cells": 0,
+  "picp_range": [
+    0.912830370014416,
+    0.9628420665112284
+  ],
+  "mpiw_range_km_per_h": [
+    13.331679041000331,
+    18.028202972888717
+  ],
+  "panel_a_scale": {
+    "metric": "PICP_mean",
+    "vmin": 0.9,
+    "vmax": 0.965,
+    "colormap": "viridis"
+  },
+  "panel_b_scale": {
+    "metric": "MPIW_mean",
+    "vmin": 13.0,
+    "vmax": 18.5,
+    "colormap": "magma",
+    "unit": "km h^-1"
+  },
+  "model_display_names": [
+    "Traffic-only",
+    "Pressure-augmented",
+    "Full fusion"
+  ],
+  "forbidden_display_name_used": false,
+  "supplementary_only_metrics": [
+    "PINAW_mean",
+    "Pinball_Loss_mean"
+  ],
+  "checks": [
+    "All 36 frozen scenario-model-horizon combinations are uniquely present.",
+    "Every UQ cell is aggregated across the same five seeds.",
+    "The three UQ models share identical samples within every scenario-horizon comparison.",
+    "Nominal prediction-interval coverage is frozen at 0.90.",
+    "Separate PICP [0.900, 0.965] and MPIW [13.0, 18.5] scales were selected from frozen values."
+  ],
+  "all_checks_passed": true
+}

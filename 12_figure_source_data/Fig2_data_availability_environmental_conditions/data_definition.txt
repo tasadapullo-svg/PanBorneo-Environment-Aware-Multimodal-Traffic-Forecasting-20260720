@@ -1,0 +1,1 @@
+node_hours are prediction samples; independent_events count contiguous forecast-origin hour runs and do not treat node-hours as independent events.

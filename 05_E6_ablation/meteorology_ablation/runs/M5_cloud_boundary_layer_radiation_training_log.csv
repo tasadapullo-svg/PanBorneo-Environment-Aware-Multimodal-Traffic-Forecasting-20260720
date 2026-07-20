@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,train_samples,validation_samples,test_samples,input_feature_count,encoded_feature_count,best_iteration,best_validation_MAE,elapsed_seconds,test_used_for_selection
+meteorology_ablation,M5_cloud_boundary_layer_radiation,1,42,new_fixed_protocol_fit,68963,14337,13641,29,81,263,0.8159578080838168,1.3319957256317139,False
+meteorology_ablation,M5_cloud_boundary_layer_radiation,1,2025,new_fixed_protocol_fit,68963,14337,13641,29,81,263,0.8194284057936476,1.3329973220825195,False
+meteorology_ablation,M5_cloud_boundary_layer_radiation,1,20260623,new_fixed_protocol_fit,68963,14337,13641,29,81,267,0.8210781176169897,1.3540048599243164,False
+meteorology_ablation,M5_cloud_boundary_layer_radiation,1,20260715,new_fixed_protocol_fit,68963,14337,13641,29,81,300,0.8195237671055953,1.5769970417022705,False
+meteorology_ablation,M5_cloud_boundary_layer_radiation,1,20260718,new_fixed_protocol_fit,68963,14337,13641,29,81,267,0.8129254523585463,1.3280043601989746,False
+meteorology_ablation,M5_cloud_boundary_layer_radiation,3,42,new_fixed_protocol_fit,68870,14235,13539,29,81,322,0.9046271361339959,1.5339915752410889,False
+meteorology_ablation,M5_cloud_boundary_layer_radiation,3,2025,new_fixed_protocol_fit,68870,14235,13539,29,81,386,0.9030528519754037,1.7880773544311523,False
+meteorology_ablation,M5_cloud_boundary_layer_radiation,3,20260623,new_fixed_protocol_fit,68870,14235,13539,29,81,252,0.9109341793241189,1.3449490070343018,False
+meteorology_ablation,M5_cloud_boundary_layer_radiation,3,20260715,new_fixed_protocol_fit,68870,14235,13539,29,81,313,0.9041414288332222,1.5519976615905762,False
+meteorology_ablation,M5_cloud_boundary_layer_radiation,3,20260718,new_fixed_protocol_fit,68870,14235,13539,29,81,295,0.9044475702808998,1.54105806350708,False
+meteorology_ablation,M5_cloud_boundary_layer_radiation,6,42,new_fixed_protocol_fit,68717,14084,13387,29,81,356,0.9380294502678665,1.6969943046569824,False
+meteorology_ablation,M5_cloud_boundary_layer_radiation,6,2025,new_fixed_protocol_fit,68717,14084,13387,29,81,281,0.9466634529349953,1.486008644104004,False
+meteorology_ablation,M5_cloud_boundary_layer_radiation,6,20260623,new_fixed_protocol_fit,68717,14084,13387,29,81,414,0.9456424244558632,1.951000452041626,False
+meteorology_ablation,M5_cloud_boundary_layer_radiation,6,20260715,new_fixed_protocol_fit,68717,14084,13387,29,81,298,0.9423814121886634,1.4670512676239014,False
+meteorology_ablation,M5_cloud_boundary_layer_radiation,6,20260718,new_fixed_protocol_fit,68717,14084,13387,29,81,294,0.9359190149152865,1.4809212684631348,False

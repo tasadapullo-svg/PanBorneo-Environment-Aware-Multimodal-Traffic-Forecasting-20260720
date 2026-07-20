@@ -1,0 +1,45 @@
+group: meteorology_ablation
+variant: M1_temperature
+features:
+- current_speed_input
+- free_flow_speed_input
+- current_travel_time_input
+- tti_input
+- speed_ratio_input
+- speed_drop_input
+- travel_time_delay_input
+- speed_deficit_ratio_input
+- missing_mask
+- gap_length_steps
+- coverage_ratio_6h
+- coverage_ratio_24h
+- volatility_tti_3h
+- volatility_tti_6h
+- confidence_input
+- reliability_score
+- hour_sin
+- hour_cos
+- dayofweek_sin
+- dayofweek_cos
+- is_weekend
+- is_public_holiday
+- is_school_holiday
+- is_holiday_eve
+- is_day_after_holiday
+- temperature_2m
+- weather_missing_flag
+horizons:
+- 1
+- 3
+- 6
+seeds:
+- 42
+- 2025
+- 20260623
+- 20260715
+- 20260718
+backbone: fixed XGBoost protocol identical to frozen E1-E5
+training_only_imputation: true
+validation_only_early_stopping: true
+test_used_for_selection: false
+frozen_anchor: null

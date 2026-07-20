@@ -1,0 +1,37 @@
+﻿scenario,scenario_label,horizon,model,model_display,seed_count,sample_count,PINAW_mean,Pinball_Loss_mean
+S1_dry,Dry,1,UQ_T1_traffic_only,Traffic-only,5,5492.0,0.1838712640722042,0.484994212322138
+S1_dry,Dry,1,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,5,5492.0,0.1830466509646771,0.4863382231237011
+S1_dry,Dry,1,UQ_aux_full_fusion,Full fusion,5,5492.0,0.1851940238927283,0.5231849031652113
+S1_dry,Dry,3,UQ_T1_traffic_only,Traffic-only,5,5322.0,0.178326640070851,0.4640495430137467
+S1_dry,Dry,3,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,5,5322.0,0.1779125143763983,0.4660514476414867
+S1_dry,Dry,3,UQ_aux_full_fusion,Full fusion,5,5322.0,0.1848265746929106,0.5062741191247108
+S1_dry,Dry,6,UQ_T1_traffic_only,Traffic-only,5,5123.0,0.1728236267367959,0.4464410262449446
+S1_dry,Dry,6,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,5,5123.0,0.172495012826899,0.4502394196510751
+S1_dry,Dry,6,UQ_aux_full_fusion,Full fusion,5,5123.0,0.1803363845377677,0.493769844318772
+S2_rain,Rain,1,UQ_T1_traffic_only,Traffic-only,5,8149.0,0.1687554308987383,0.3762508189568478
+S2_rain,Rain,1,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,5,8149.0,0.1689765006341052,0.3782592144871449
+S2_rain,Rain,1,UQ_aux_full_fusion,Full fusion,5,8149.0,0.180761667411627,0.4194208863523981
+S2_rain,Rain,3,UQ_T1_traffic_only,Traffic-only,5,8217.0,0.1780321936561428,0.4615978313992462
+S2_rain,Rain,3,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,5,8217.0,0.1776994102408061,0.4658443342751024
+S2_rain,Rain,3,UQ_aux_full_fusion,Full fusion,5,8217.0,0.1854901594192777,0.5052379470552222
+S2_rain,Rain,6,UQ_T1_traffic_only,Traffic-only,5,8264.0,0.1845329472120443,0.462823723220333
+S2_rain,Rain,6,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,5,8264.0,0.1844740752854644,0.462430836728174
+S2_rain,Rain,6,UQ_aux_full_fusion,Full fusion,5,8264.0,0.1937884728199564,0.5175039174896013
+S7_elevated_aod,Elevated AOD,1,UQ_T1_traffic_only,Traffic-only,5,3548.0,0.1983363817548157,0.500148984908341
+S7_elevated_aod,Elevated AOD,1,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,5,3548.0,0.1976728001585914,0.4956139501849767
+S7_elevated_aod,Elevated AOD,1,UQ_aux_full_fusion,Full fusion,5,3548.0,0.2005990073910591,0.5102567401984187
+S7_elevated_aod,Elevated AOD,3,UQ_T1_traffic_only,Traffic-only,5,3517.0,0.1990623596004624,0.5887556825268497
+S7_elevated_aod,Elevated AOD,3,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,5,3517.0,0.1987688668680869,0.5865048288311534
+S7_elevated_aod,Elevated AOD,3,UQ_aux_full_fusion,Full fusion,5,3517.0,0.2013243064263791,0.5636607376494892
+S7_elevated_aod,Elevated AOD,6,UQ_T1_traffic_only,Traffic-only,5,3492.0,0.1971947012954049,0.5704058554573977
+S7_elevated_aod,Elevated AOD,6,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,5,3492.0,0.198529248985911,0.5642372398423805
+S7_elevated_aod,Elevated AOD,6,UQ_aux_full_fusion,Full fusion,5,3492.0,0.1981072941810145,0.5537438469854374
+S8_rain_elevated_atmospheric_pollution,Compound,1,UQ_T1_traffic_only,Traffic-only,5,1917.0,0.2051950072492136,0.4499904092534318
+S8_rain_elevated_atmospheric_pollution,Compound,1,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,5,1917.0,0.2049387984544139,0.4445087731516771
+S8_rain_elevated_atmospheric_pollution,Compound,1,UQ_aux_full_fusion,Full fusion,5,1917.0,0.2103319552249504,0.4589151609066239
+S8_rain_elevated_atmospheric_pollution,Compound,3,UQ_T1_traffic_only,Traffic-only,5,1974.0,0.2264215428041075,0.6342885297828735
+S8_rain_elevated_atmospheric_pollution,Compound,3,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,5,1974.0,0.225293148912214,0.6340723760528206
+S8_rain_elevated_atmospheric_pollution,Compound,3,UQ_aux_full_fusion,Full fusion,5,1974.0,0.2284831161963833,0.6085404757525785
+S8_rain_elevated_atmospheric_pollution,Compound,6,UQ_T1_traffic_only,Traffic-only,5,2081.0,0.2296586365973084,0.6430410857981986
+S8_rain_elevated_atmospheric_pollution,Compound,6,UQ_T2_best_environmental_M4_pressure,Pressure-augmented,5,2081.0,0.2291155250787106,0.6355400380090742
+S8_rain_elevated_atmospheric_pollution,Compound,6,UQ_aux_full_fusion,Full fusion,5,2081.0,0.2255016784188792,0.6342946911637227

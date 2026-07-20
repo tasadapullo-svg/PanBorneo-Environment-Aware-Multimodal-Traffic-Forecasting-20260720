@@ -1,0 +1,138 @@
+variable,dtype,modality,role,unit,missing_count_frozen,imputation_or_availability_rule,source_description,description
+node_id,object,identifier_or_protocol,metadata_or_supporting,see source variable definition,0,not imputed,Frozen experiment protocol,node id
+timestamp_local,datetime64[us],identifier_or_protocol,metadata_or_supporting,Asia/Kuching local time unless named UTC,0,not imputed,Frozen experiment protocol,timestamp local
+split,object,identifier_or_protocol,metadata_or_supporting,see source variable definition,0,not imputed,Frozen experiment protocol,split
+uq_partition,string,identifier_or_protocol,metadata_or_supporting,see source variable definition,0,not imputed,Frozen experiment protocol,uq partition
+current_speed_input,float64,traffic,predictor,km/h,1,causal LOCF; exclude origin if no past observation,Floating-car traffic records,current speed input
+free_flow_speed_input,float64,traffic,predictor,km/h,1,causal LOCF; exclude origin if no past observation,Floating-car traffic records,free flow speed input
+current_travel_time_input,float64,traffic,predictor,see source variable definition,1,causal LOCF; exclude origin if no past observation,Floating-car traffic records,current travel time input
+tti_input,float64,traffic,predictor,see source variable definition,1,causal LOCF; exclude origin if no past observation,Floating-car traffic records,tti input
+speed_ratio_input,float64,traffic,predictor,dimensionless,1,causal LOCF; exclude origin if no past observation,Floating-car traffic records,speed ratio input
+speed_drop_input,float64,traffic,predictor,see source variable definition,1,causal LOCF; exclude origin if no past observation,Floating-car traffic records,speed drop input
+travel_time_delay_input,float64,traffic,predictor,see source variable definition,1,causal LOCF; exclude origin if no past observation,Floating-car traffic records,travel time delay input
+speed_deficit_ratio_input,float64,traffic,predictor,dimensionless,1,causal LOCF; exclude origin if no past observation,Floating-car traffic records,speed deficit ratio input
+missing_mask,int64,reliability,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Derived causally from floating-car traffic availability,missing mask
+gap_length_steps,int64,reliability,predictor,hours or hourly steps,0,training-only median if continuous predictor remains missing,Derived causally from floating-car traffic availability,gap length steps
+coverage_ratio_6h,float64,reliability,predictor,dimensionless,0,training-only median if continuous predictor remains missing,Derived causally from floating-car traffic availability,coverage ratio 6h
+coverage_ratio_24h,float64,reliability,predictor,dimensionless,0,training-only median if continuous predictor remains missing,Derived causally from floating-car traffic availability,coverage ratio 24h
+volatility_tti_3h,float64,reliability,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Derived causally from floating-car traffic availability,volatility tti 3h
+volatility_tti_6h,float64,reliability,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Derived causally from floating-car traffic availability,volatility tti 6h
+confidence_input,float64,reliability,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Derived causally from floating-car traffic availability,confidence input
+reliability_score,float64,reliability,predictor,dimensionless,0,training-only median if continuous predictor remains missing,Derived causally from floating-car traffic availability,reliability score
+hour_sin,float64,calendar,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Deterministic local calendar features,hour sin
+hour_cos,float64,calendar,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Deterministic local calendar features,hour cos
+dayofweek_sin,float64,calendar,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Deterministic local calendar features,dayofweek sin
+dayofweek_cos,float64,calendar,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Deterministic local calendar features,dayofweek cos
+is_weekend,int64,calendar,predictor,boolean,0,training-only median if continuous predictor remains missing,Deterministic local calendar features,is weekend
+is_public_holiday,bool,calendar,predictor,boolean,0,training-only median if continuous predictor remains missing,Deterministic local calendar features,is public holiday
+is_school_holiday,bool,calendar,predictor,boolean,0,training-only median if continuous predictor remains missing,Deterministic local calendar features,is school holiday
+is_holiday_eve,bool,calendar,predictor,boolean,0,training-only median if continuous predictor remains missing,Deterministic local calendar features,is holiday eve
+is_day_after_holiday,bool,calendar,predictor,boolean,0,training-only median if continuous predictor remains missing,Deterministic local calendar features,is day after holiday
+precipitation,float64,rainfall,predictor,mm,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,precipitation
+rain_flag,bool,rainfall,predictor,boolean,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,rain flag
+rain_lag_1h,float64,rainfall,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,rain lag 1h
+rain_lag_3h,float64,rainfall,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,rain lag 3h
+rain_lag_6h,float64,rainfall,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,rain lag 6h
+rain_sum_3h,float64,rainfall,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,rain sum 3h
+rain_sum_6h,float64,rainfall,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,rain sum 6h
+rain_sum_12h,float64,rainfall,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,rain sum 12h
+rain_sum_24h,float64,rainfall,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,rain sum 24h
+rain_max_3h,float64,rainfall,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,rain max 3h
+rain_max_6h,float64,rainfall,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,rain max 6h
+post_rain_1_3h,bool,rainfall,predictor,boolean,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,post rain 1 3h
+post_rain_4_6h,bool,rainfall,predictor,boolean,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,post rain 4 6h
+post_rain_7_12h,bool,rainfall,predictor,boolean,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,post rain 7 12h
+wet_grid_fraction,float64,derived_or_supporting,metadata_or_supporting,see source variable definition,0,not imputed,Derived from frozen source package,wet grid fraction
+wet_node_fraction,float64,derived_or_supporting,metadata_or_supporting,see source variable definition,0,not imputed,Derived from frozen source package,wet node fraction
+corridor_mean_rainfall,float64,derived_or_supporting,metadata_or_supporting,see source variable definition,0,not imputed,Derived from frozen source package,corridor mean rainfall
+corridor_max_rainfall,float64,derived_or_supporting,metadata_or_supporting,see source variable definition,0,not imputed,Derived from frozen source package,corridor max rainfall
+corridor_cumulative_rainfall,float64,derived_or_supporting,metadata_or_supporting,see source variable definition,0,not imputed,Derived from frozen source package,corridor cumulative rainfall
+hours_since_corridor_rain,int64,derived_or_supporting,metadata_or_supporting,hours or hourly steps,0,not imputed,Derived from frozen source package,hours since corridor rain
+rain_missing_flag,bool,rainfall,predictor,boolean,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,rain missing flag
+temperature_2m,float64,meteorology,predictor,degC,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,temperature 2m
+relative_humidity_2m,int64,meteorology,predictor,hours or hourly steps,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,relative humidity 2m
+dew_point_2m,float64,meteorology,predictor,degC,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,dew point 2m
+surface_pressure,float64,meteorology,predictor,hPa,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,surface pressure
+wind_speed_10m,float64,meteorology,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,wind speed 10m
+wind_gusts_10m,float64,meteorology,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,wind gusts 10m
+wind_u,float64,meteorology,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,wind u
+wind_v,float64,meteorology,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,wind v
+wind_calm_flag,bool,meteorology,predictor,boolean,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,wind calm flag
+wind_gust_ratio,float64,meteorology,predictor,dimensionless,110,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,wind gust ratio
+wind_gust_ratio_missing_flag,bool,meteorology,predictor,boolean,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,wind gust ratio missing flag
+cloud_cover,int64,meteorology,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,cloud cover
+boundary_layer_height,float64,meteorology,predictor,m,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,boundary layer height
+shortwave_radiation,float64,meteorology,predictor,W/m2,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,shortwave radiation
+weather_code,int64,derived_or_supporting,metadata_or_supporting,see source variable definition,0,not imputed,Derived from frozen source package,weather code
+weather_missing_flag,bool,meteorology,predictor,boolean,0,training-only median if continuous predictor remains missing,Open-Meteo Historical Weather API,weather missing flag
+pm2_5,float64,atmospheric_context,predictor,ug/m3,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,pm2 5
+pm10,float64,atmospheric_context,predictor,ug/m3,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,pm10
+nitrogen_dioxide,float64,atmospheric_context,predictor,ug/m3,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,nitrogen dioxide
+carbon_monoxide,float64,atmospheric_context,predictor,ug/m3,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,carbon monoxide
+ozone,float64,atmospheric_context,predictor,ug/m3,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,ozone
+sulphur_dioxide,float64,atmospheric_context,predictor,ug/m3,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,sulphur dioxide
+aerosol_optical_depth,float64,atmospheric_context,predictor,dimensionless,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,aerosol optical depth
+dust,float64,atmospheric_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,dust
+pm2_5_lag_1h,float64,atmospheric_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,pm2 5 lag 1h
+pm2_5_lag_3h,float64,atmospheric_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,pm2 5 lag 3h
+pm2_5_lag_6h,float64,atmospheric_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,pm2 5 lag 6h
+pm2_5_mean_3h,float64,atmospheric_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,pm2 5 mean 3h
+pm2_5_mean_6h,float64,atmospheric_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,pm2 5 mean 6h
+pm2_5_mean_24h,float64,atmospheric_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,pm2 5 mean 24h
+aerosol_optical_depth_lag_1h,float64,atmospheric_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,aerosol optical depth lag 1h
+aerosol_optical_depth_lag_3h,float64,atmospheric_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,aerosol optical depth lag 3h
+aerosol_optical_depth_lag_6h,float64,atmospheric_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,aerosol optical depth lag 6h
+aerosol_optical_depth_mean_3h,float64,atmospheric_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,aerosol optical depth mean 3h
+aerosol_optical_depth_mean_6h,float64,atmospheric_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,aerosol optical depth mean 6h
+aerosol_optical_depth_mean_24h,float64,atmospheric_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,aerosol optical depth mean 24h
+nitrogen_dioxide_lag_1h,float64,atmospheric_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,nitrogen dioxide lag 1h
+nitrogen_dioxide_lag_3h,float64,atmospheric_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,nitrogen dioxide lag 3h
+nitrogen_dioxide_lag_6h,float64,atmospheric_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,nitrogen dioxide lag 6h
+nitrogen_dioxide_mean_3h,float64,atmospheric_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,nitrogen dioxide mean 3h
+nitrogen_dioxide_mean_6h,float64,atmospheric_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,nitrogen dioxide mean 6h
+nitrogen_dioxide_mean_24h,float64,atmospheric_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,nitrogen dioxide mean 24h
+ozone_mean_8h,float64,atmospheric_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,ozone mean 8h
+air_quality_missing_flag,bool,atmospheric_context,predictor,boolean,0,training-only median if continuous predictor remains missing,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo,air quality missing flag
+corridor_km,float64,road_context,predictor,km,0,training-only median if continuous predictor remains missing,Verified corridor chainage and valid OSM-derived static context,corridor km
+elevation_m,float64,road_context,predictor,m,0,training-only median if continuous predictor remains missing,Verified corridor chainage and valid OSM-derived static context,elevation m
+road_class,object,road_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Verified corridor chainage and valid OSM-derived static context,road class
+lane_count,float64,road_context,predictor,see source variable definition,5937,training-only median if continuous predictor remains missing,Verified corridor chainage and valid OSM-derived static context,lane count
+lane_count_missing_flag,bool,road_context,predictor,boolean,0,training-only median if continuous predictor remains missing,Verified corridor chainage and valid OSM-derived static context,lane count missing flag
+urban_rural,object,road_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Verified corridor chainage and valid OSM-derived static context,urban rural
+distance_to_nearest_junction,float64,road_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Verified corridor chainage and valid OSM-derived static context,distance to nearest junction
+osm_bridge_tagged,bool,road_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Verified corridor chainage and valid OSM-derived static context,osm bridge tagged
+distance_to_settlement,float64,road_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Verified corridor chainage and valid OSM-derived static context,distance to settlement
+distance_to_major_intersection,float64,road_context,predictor,see source variable definition,0,training-only median if continuous predictor remains missing,Verified corridor chainage and valid OSM-derived static context,distance to major intersection
+target_timestamp_h1,datetime64[us],target,target_timestamp,Asia/Kuching local time unless named UTC,0,not imputed,Observed floating-car point speed at t+h,target timestamp h1
+target_split_h1,string,target,metadata_or_supporting,hours or hourly steps,51,not imputed,Observed floating-car point speed at t+h,target split h1
+target_available_h1,bool[pyarrow],target,eligibility_flag,hours or hourly steps,0,not imputed,Observed floating-car point speed at t+h,target available h1
+sample_id_h1,string,identifier_or_protocol,sample_identifier,hours or hourly steps,3987,not imputed,Frozen experiment protocol,sample id h1
+target_speed_h1,float64,target,target,hours or hourly steps,3987,not imputed,Observed floating-car point speed at t+h,target speed h1
+target_uq_partition_h1,string,target,metadata_or_supporting,hours or hourly steps,51,not imputed,Observed floating-car point speed at t+h,target uq partition h1
+uq_sample_available_h1,bool[pyarrow],derived_or_supporting,metadata_or_supporting,hours or hourly steps,0,not imputed,Derived from frozen source package,uq sample available h1
+target_timestamp_h3,datetime64[us],target,target_timestamp,Asia/Kuching local time unless named UTC,0,not imputed,Observed floating-car point speed at t+h,target timestamp h3
+target_split_h3,string,target,metadata_or_supporting,hours or hourly steps,153,not imputed,Observed floating-car point speed at t+h,target split h3
+target_available_h3,bool[pyarrow],target,eligibility_flag,hours or hourly steps,0,not imputed,Observed floating-car point speed at t+h,target available h3
+sample_id_h3,string,identifier_or_protocol,sample_identifier,hours or hourly steps,4284,not imputed,Frozen experiment protocol,sample id h3
+target_speed_h3,float64,target,target,hours or hourly steps,4284,not imputed,Observed floating-car point speed at t+h,target speed h3
+target_uq_partition_h3,string,target,metadata_or_supporting,hours or hourly steps,153,not imputed,Observed floating-car point speed at t+h,target uq partition h3
+uq_sample_available_h3,bool[pyarrow],derived_or_supporting,metadata_or_supporting,hours or hourly steps,0,not imputed,Derived from frozen source package,uq sample available h3
+target_timestamp_h6,datetime64[us],target,target_timestamp,Asia/Kuching local time unless named UTC,0,not imputed,Observed floating-car point speed at t+h,target timestamp h6
+target_split_h6,string,target,metadata_or_supporting,hours or hourly steps,306,not imputed,Observed floating-car point speed at t+h,target split h6
+target_available_h6,bool[pyarrow],target,eligibility_flag,hours or hourly steps,0,not imputed,Observed floating-car point speed at t+h,target available h6
+sample_id_h6,string,identifier_or_protocol,sample_identifier,hours or hourly steps,4740,not imputed,Frozen experiment protocol,sample id h6
+target_speed_h6,float64,target,target,hours or hourly steps,4740,not imputed,Observed floating-car point speed at t+h,target speed h6
+target_uq_partition_h6,string,target,metadata_or_supporting,hours or hourly steps,306,not imputed,Observed floating-car point speed at t+h,target uq partition h6
+uq_sample_available_h6,bool[pyarrow],derived_or_supporting,metadata_or_supporting,hours or hourly steps,0,not imputed,Derived from frozen source package,uq sample available h6
+causal_input_available,bool,identifier_or_protocol,metadata_or_supporting,see source variable definition,0,not imputed,Frozen experiment protocol,causal input available
+imputation_class,object,identifier_or_protocol,metadata_or_supporting,see source variable definition,0,not imputed,Frozen experiment protocol,imputation class
+sample_eligible_h1,bool,identifier_or_protocol,eligibility_flag,hours or hourly steps,0,not imputed,Frozen experiment protocol,sample eligible h1
+sample_eligible_h3,bool,identifier_or_protocol,eligibility_flag,hours or hourly steps,0,not imputed,Frozen experiment protocol,sample eligible h3
+sample_eligible_h6,bool,identifier_or_protocol,eligibility_flag,hours or hourly steps,0,not imputed,Frozen experiment protocol,sample eligible h6
+scenario_dry,bool,scenario_label,evaluation_only_not_predictor,boolean,0,not imputed,Predeclared scenario definition; elevated thresholds derived from training split only,dry
+scenario_rain,bool,scenario_label,evaluation_only_not_predictor,boolean,0,not imputed,Predeclared scenario definition; elevated thresholds derived from training split only,rain
+scenario_widespread_rain,bool,scenario_label,evaluation_only_not_predictor,boolean,0,not imputed,Predeclared scenario definition; elevated thresholds derived from training split only,widespread rain
+scenario_post_rain_1_3h,bool,scenario_label,evaluation_only_not_predictor,boolean,0,not imputed,Predeclared scenario definition; elevated thresholds derived from training split only,post rain 1 3h
+scenario_elevated_pm2_5,bool,scenario_label,evaluation_only_not_predictor,boolean,0,not imputed,Predeclared scenario definition; elevated thresholds derived from training split only,elevated pm2 5
+scenario_elevated_aod,bool,scenario_label,evaluation_only_not_predictor,boolean,0,not imputed,Predeclared scenario definition; elevated thresholds derived from training split only,elevated aod
+scenario_rain_elevated_atmospheric_pollution,bool,scenario_label,evaluation_only_not_predictor,boolean,0,not imputed,Predeclared scenario definition; elevated thresholds derived from training split only,rain elevated atmospheric pollution

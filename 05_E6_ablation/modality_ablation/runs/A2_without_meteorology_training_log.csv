@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,train_samples,validation_samples,test_samples,input_feature_count,encoded_feature_count,best_iteration,best_validation_MAE,elapsed_seconds,test_used_for_selection
+modality_ablation,A2_without_meteorology,1,42,new_fixed_protocol_fit,68963,14337,13641,78,136,224,0.8551140596504582,1.5319921970367432,False
+modality_ablation,A2_without_meteorology,1,2025,new_fixed_protocol_fit,68963,14337,13641,78,136,253,0.8564999835747442,1.767000675201416,False
+modality_ablation,A2_without_meteorology,1,20260623,new_fixed_protocol_fit,68963,14337,13641,78,136,257,0.8580355597995786,1.7310001850128174,False
+modality_ablation,A2_without_meteorology,1,20260715,new_fixed_protocol_fit,68963,14337,13641,78,136,237,0.8586280660715081,1.6030070781707764,False
+modality_ablation,A2_without_meteorology,1,20260718,new_fixed_protocol_fit,68963,14337,13641,78,136,217,0.8594466058614406,1.594999074935913,False
+modality_ablation,A2_without_meteorology,3,42,new_fixed_protocol_fit,68870,14235,13539,78,136,227,1.007943509191976,1.5859923362731934,False
+modality_ablation,A2_without_meteorology,3,2025,new_fixed_protocol_fit,68870,14235,13539,78,136,219,1.0162798366673922,1.5870065689086914,False
+modality_ablation,A2_without_meteorology,3,20260623,new_fixed_protocol_fit,68870,14235,13539,78,136,193,0.9988412273528914,1.4110045433044434,False
+modality_ablation,A2_without_meteorology,3,20260715,new_fixed_protocol_fit,68870,14235,13539,78,136,216,1.0118391872415384,1.520005702972412,False
+modality_ablation,A2_without_meteorology,3,20260718,new_fixed_protocol_fit,68870,14235,13539,78,136,211,1.0121795188011435,1.5309991836547852,False
+modality_ablation,A2_without_meteorology,6,42,new_fixed_protocol_fit,68717,14084,13387,78,136,219,1.0198184760650835,1.5599381923675537,False
+modality_ablation,A2_without_meteorology,6,2025,new_fixed_protocol_fit,68717,14084,13387,78,136,266,1.0334766385772627,1.8510076999664307,False
+modality_ablation,A2_without_meteorology,6,20260623,new_fixed_protocol_fit,68717,14084,13387,78,136,274,1.0344083179841155,1.77406644821167,False
+modality_ablation,A2_without_meteorology,6,20260715,new_fixed_protocol_fit,68717,14084,13387,78,136,225,1.0193618339965438,1.5600049495697021,False
+modality_ablation,A2_without_meteorology,6,20260718,new_fixed_protocol_fit,68717,14084,13387,78,136,207,1.0284385552497046,1.5170061588287354,False

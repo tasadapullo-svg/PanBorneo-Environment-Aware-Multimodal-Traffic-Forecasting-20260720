@@ -1,0 +1,7 @@
+﻿check,status,detail
+51 unique FCD nodes,PASS,rows=51; unique node_id=51
+verified corridor order,PASS,order mismatches=0
+coordinates against node master,PASS,coordinate mismatches=0
+frozen corridor coverage,PASS,0.000 to 95.690 km
+environmental grid counts,PASS,weather=15; CAMS=9
+source row status,PASS,51/51 PASS

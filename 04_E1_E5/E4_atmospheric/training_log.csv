@@ -1,0 +1,16 @@
+experiment,horizon,seed,train_samples,validation_samples,test_samples,encoded_feature_count,best_iteration,elapsed_seconds,selection_split,test_used_for_selection,checkpoint
+E4_atmospheric,1,42,68963,14337,13641,105,253,1.8419921398162842,validation,False,E4_atmospheric_h1_seed42.json
+E4_atmospheric,1,2025,68963,14337,13641,105,242,1.5489959716796875,validation,False,E4_atmospheric_h1_seed2025.json
+E4_atmospheric,1,20260623,68963,14337,13641,105,267,1.6099944114685059,validation,False,E4_atmospheric_h1_seed20260623.json
+E4_atmospheric,1,20260715,68963,14337,13641,105,209,1.3889994621276855,validation,False,E4_atmospheric_h1_seed20260715.json
+E4_atmospheric,1,20260718,68963,14337,13641,105,258,1.533008337020874,validation,False,E4_atmospheric_h1_seed20260718.json
+E4_atmospheric,3,42,68870,14235,13539,105,236,1.7059941291809082,validation,False,E4_atmospheric_h3_seed42.json
+E4_atmospheric,3,2025,68870,14235,13539,105,199,1.3769733905792236,validation,False,E4_atmospheric_h3_seed2025.json
+E4_atmospheric,3,20260623,68870,14235,13539,105,191,1.3040375709533691,validation,False,E4_atmospheric_h3_seed20260623.json
+E4_atmospheric,3,20260715,68870,14235,13539,105,222,1.4179892539978027,validation,False,E4_atmospheric_h3_seed20260715.json
+E4_atmospheric,3,20260718,68870,14235,13539,105,195,1.266998291015625,validation,False,E4_atmospheric_h3_seed20260718.json
+E4_atmospheric,6,42,68717,14084,13387,105,206,1.4679985046386719,validation,False,E4_atmospheric_h6_seed42.json
+E4_atmospheric,6,2025,68717,14084,13387,105,220,1.4240012168884277,validation,False,E4_atmospheric_h6_seed2025.json
+E4_atmospheric,6,20260623,68717,14084,13387,105,209,1.3590080738067627,validation,False,E4_atmospheric_h6_seed20260623.json
+E4_atmospheric,6,20260715,68717,14084,13387,105,202,1.2899985313415527,validation,False,E4_atmospheric_h6_seed20260715.json
+E4_atmospheric,6,20260718,68717,14084,13387,105,241,1.470005989074707,validation,False,E4_atmospheric_h6_seed20260718.json

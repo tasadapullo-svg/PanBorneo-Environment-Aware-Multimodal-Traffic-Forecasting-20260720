@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,train_samples,validation_samples,test_samples,input_feature_count,encoded_feature_count,best_iteration,best_validation_MAE,elapsed_seconds,test_used_for_selection
+atmospheric_ablation,P4_gaseous_pollutants,1,42,new_fixed_protocol_fit,68963,14337,13641,30,82,244,0.8392076741753575,1.3249993324279785,False
+atmospheric_ablation,P4_gaseous_pollutants,1,2025,new_fixed_protocol_fit,68963,14337,13641,30,82,251,0.8443542281445694,1.3479998111724854,False
+atmospheric_ablation,P4_gaseous_pollutants,1,20260623,new_fixed_protocol_fit,68963,14337,13641,30,82,296,0.839312827927203,1.4819996356964111,False
+atmospheric_ablation,P4_gaseous_pollutants,1,20260715,new_fixed_protocol_fit,68963,14337,13641,30,82,227,0.841918395205323,1.2340004444122314,False
+atmospheric_ablation,P4_gaseous_pollutants,1,20260718,new_fixed_protocol_fit,68963,14337,13641,30,82,257,0.8401721597274926,1.3080086708068848,False
+atmospheric_ablation,P4_gaseous_pollutants,3,42,new_fixed_protocol_fit,68870,14235,13539,30,82,274,0.908059611988771,1.4260573387145996,False
+atmospheric_ablation,P4_gaseous_pollutants,3,2025,new_fixed_protocol_fit,68870,14235,13539,30,82,397,0.9045667769576442,1.9030044078826904,False
+atmospheric_ablation,P4_gaseous_pollutants,3,20260623,new_fixed_protocol_fit,68870,14235,13539,30,82,285,0.9062735376334584,1.410003900527954,False
+atmospheric_ablation,P4_gaseous_pollutants,3,20260715,new_fixed_protocol_fit,68870,14235,13539,30,82,293,0.9094666039185814,1.5049991607666016,False
+atmospheric_ablation,P4_gaseous_pollutants,3,20260718,new_fixed_protocol_fit,68870,14235,13539,30,82,302,0.9052631268301972,1.5019993782043457,False
+atmospheric_ablation,P4_gaseous_pollutants,6,42,new_fixed_protocol_fit,68717,14084,13387,30,82,296,0.970087807207614,1.463000774383545,False
+atmospheric_ablation,P4_gaseous_pollutants,6,2025,new_fixed_protocol_fit,68717,14084,13387,30,82,261,0.9562981489604592,1.3880057334899902,False
+atmospheric_ablation,P4_gaseous_pollutants,6,20260623,new_fixed_protocol_fit,68717,14084,13387,30,82,318,0.9559024850335591,1.5649981498718262,False
+atmospheric_ablation,P4_gaseous_pollutants,6,20260715,new_fixed_protocol_fit,68717,14084,13387,30,82,250,0.9594209928872808,1.3060014247894287,False
+atmospheric_ablation,P4_gaseous_pollutants,6,20260718,new_fixed_protocol_fit,68717,14084,13387,30,82,300,0.9598736930929508,1.4630446434020996,False

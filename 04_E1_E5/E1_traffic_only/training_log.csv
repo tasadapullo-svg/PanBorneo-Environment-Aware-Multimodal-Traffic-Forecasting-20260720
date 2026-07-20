@@ -1,0 +1,16 @@
+experiment,horizon,seed,train_samples,validation_samples,test_samples,encoded_feature_count,best_iteration,elapsed_seconds,selection_split,test_used_for_selection,checkpoint
+E1_traffic_only,1,42,68963,14337,13641,77,431,2.1460001468658447,validation,False,E1_traffic_only_h1_seed42.json
+E1_traffic_only,1,2025,68963,14337,13641,77,307,1.5209999084472656,validation,False,E1_traffic_only_h1_seed2025.json
+E1_traffic_only,1,20260623,68963,14337,13641,77,323,1.5950005054473877,validation,False,E1_traffic_only_h1_seed20260623.json
+E1_traffic_only,1,20260715,68963,14337,13641,77,399,1.9300508499145508,validation,False,E1_traffic_only_h1_seed20260715.json
+E1_traffic_only,1,20260718,68963,14337,13641,77,510,2.241004228591919,validation,False,E1_traffic_only_h1_seed20260718.json
+E1_traffic_only,3,42,68870,14235,13539,77,381,1.7599966526031494,validation,False,E1_traffic_only_h3_seed42.json
+E1_traffic_only,3,2025,68870,14235,13539,77,389,1.8320062160491943,validation,False,E1_traffic_only_h3_seed2025.json
+E1_traffic_only,3,20260623,68870,14235,13539,77,419,1.9259870052337646,validation,False,E1_traffic_only_h3_seed20260623.json
+E1_traffic_only,3,20260715,68870,14235,13539,77,331,1.5889992713928223,validation,False,E1_traffic_only_h3_seed20260715.json
+E1_traffic_only,3,20260718,68870,14235,13539,77,300,1.4969985485076904,validation,False,E1_traffic_only_h3_seed20260718.json
+E1_traffic_only,6,42,68717,14084,13387,77,398,1.8359360694885254,validation,False,E1_traffic_only_h6_seed42.json
+E1_traffic_only,6,2025,68717,14084,13387,77,428,1.9710006713867188,validation,False,E1_traffic_only_h6_seed2025.json
+E1_traffic_only,6,20260623,68717,14084,13387,77,381,1.8299994468688965,validation,False,E1_traffic_only_h6_seed20260623.json
+E1_traffic_only,6,20260715,68717,14084,13387,77,361,1.7089855670928955,validation,False,E1_traffic_only_h6_seed20260715.json
+E1_traffic_only,6,20260718,68717,14084,13387,77,307,1.5400009155273438,validation,False,E1_traffic_only_h6_seed20260718.json

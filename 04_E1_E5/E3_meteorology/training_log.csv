@@ -1,0 +1,16 @@
+experiment,horizon,seed,train_samples,validation_samples,test_samples,encoded_feature_count,best_iteration,elapsed_seconds,selection_split,test_used_for_selection,checkpoint
+E3_meteorology,1,42,68963,14337,13641,92,263,1.681997299194336,validation,False,E3_meteorology_h1_seed42.json
+E3_meteorology,1,2025,68963,14337,13641,92,245,1.3610012531280518,validation,False,E3_meteorology_h1_seed2025.json
+E3_meteorology,1,20260623,68963,14337,13641,92,289,1.5350918769836426,validation,False,E3_meteorology_h1_seed20260623.json
+E3_meteorology,1,20260715,68963,14337,13641,92,238,1.3359980583190918,validation,False,E3_meteorology_h1_seed20260715.json
+E3_meteorology,1,20260718,68963,14337,13641,92,261,1.3989896774291992,validation,False,E3_meteorology_h1_seed20260718.json
+E3_meteorology,3,42,68870,14235,13539,92,246,1.511995792388916,validation,False,E3_meteorology_h3_seed42.json
+E3_meteorology,3,2025,68870,14235,13539,92,222,1.2850000858306885,validation,False,E3_meteorology_h3_seed2025.json
+E3_meteorology,3,20260623,68870,14235,13539,92,237,1.352997064590454,validation,False,E3_meteorology_h3_seed20260623.json
+E3_meteorology,3,20260715,68870,14235,13539,92,238,1.3660037517547607,validation,False,E3_meteorology_h3_seed20260715.json
+E3_meteorology,3,20260718,68870,14235,13539,92,267,1.4509994983673096,validation,False,E3_meteorology_h3_seed20260718.json
+E3_meteorology,6,42,68717,14084,13387,92,308,1.836937665939331,validation,False,E3_meteorology_h6_seed42.json
+E3_meteorology,6,2025,68717,14084,13387,92,250,1.4500010013580322,validation,False,E3_meteorology_h6_seed2025.json
+E3_meteorology,6,20260623,68717,14084,13387,92,220,1.2620079517364502,validation,False,E3_meteorology_h6_seed20260623.json
+E3_meteorology,6,20260715,68717,14084,13387,92,276,1.4869835376739502,validation,False,E3_meteorology_h6_seed20260715.json
+E3_meteorology,6,20260718,68717,14084,13387,92,307,1.6239995956420898,validation,False,E3_meteorology_h6_seed20260718.json

@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,train_samples,validation_samples,test_samples,input_feature_count,encoded_feature_count,best_iteration,best_validation_MAE,elapsed_seconds,test_used_for_selection
+meteorology_ablation,M1_temperature,1,42,new_fixed_protocol_fit,68963,14337,13641,27,79,290,0.8159464269184273,1.6829922199249268,False
+meteorology_ablation,M1_temperature,1,2025,new_fixed_protocol_fit,68963,14337,13641,27,79,334,0.8199013115813095,1.581000566482544,False
+meteorology_ablation,M1_temperature,1,20260623,new_fixed_protocol_fit,68963,14337,13641,27,79,407,0.8170521383530975,1.9099996089935303,False
+meteorology_ablation,M1_temperature,1,20260715,new_fixed_protocol_fit,68963,14337,13641,27,79,461,0.814741117614844,2.0250017642974854,False
+meteorology_ablation,M1_temperature,1,20260718,new_fixed_protocol_fit,68963,14337,13641,27,79,397,0.8160421109776571,1.8499984741210938,False
+meteorology_ablation,M1_temperature,3,42,new_fixed_protocol_fit,68870,14235,13539,27,79,279,0.9091981754497264,1.4149987697601318,False
+meteorology_ablation,M1_temperature,3,2025,new_fixed_protocol_fit,68870,14235,13539,27,79,244,0.9186978269469165,1.256000280380249,False
+meteorology_ablation,M1_temperature,3,20260623,new_fixed_protocol_fit,68870,14235,13539,27,79,279,0.9082111804829508,1.3910000324249268,False
+meteorology_ablation,M1_temperature,3,20260715,new_fixed_protocol_fit,68870,14235,13539,27,79,266,0.9146028531405814,1.3440003395080566,False
+meteorology_ablation,M1_temperature,3,20260718,new_fixed_protocol_fit,68870,14235,13539,27,79,284,0.9145021617475375,1.460008144378662,False
+meteorology_ablation,M1_temperature,6,42,new_fixed_protocol_fit,68717,14084,13387,27,79,291,0.9450467489416442,1.4949963092803955,False
+meteorology_ablation,M1_temperature,6,2025,new_fixed_protocol_fit,68717,14084,13387,27,79,261,0.9471358926551513,1.3180067539215088,False
+meteorology_ablation,M1_temperature,6,20260623,new_fixed_protocol_fit,68717,14084,13387,27,79,290,0.9480370150747301,1.4290621280670166,False
+meteorology_ablation,M1_temperature,6,20260715,new_fixed_protocol_fit,68717,14084,13387,27,79,236,0.9458481434630047,1.3150739669799805,False
+meteorology_ablation,M1_temperature,6,20260718,new_fixed_protocol_fit,68717,14084,13387,27,79,274,0.9446315548698254,1.4029982089996338,False

@@ -1,0 +1,47 @@
+{
+  "figure": "Figure 3: Leakage-controlled multimodal forecasting framework",
+  "generated_at": "2026-07-19T12:08:17.969348+08:00",
+  "source_file": "C:\\Users\\DELL\\Desktop\\多数据源数据\\2026071901\\T2_FINAL_EXPERIMENT_PACKAGE\\12_figure_source_data\\Fig3_method_framework\\source_data.csv",
+  "study_config": "C:\\Users\\DELL\\Desktop\\多数据源数据\\2026071901\\T2_FINAL_EXPERIMENT_PACKAGE\\00_config\\study_config_final.yaml",
+  "model_manifest": "C:\\Users\\DELL\\Desktop\\多数据源数据\\2026071901\\T2_FINAL_EXPERIMENT_PACKAGE\\00_config\\model_manifest.yaml",
+  "source_rows": 6,
+  "source_steps": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "checks_passed": 11,
+  "checks_failed": 0,
+  "design": {
+    "single_integrated_figure": true,
+    "panel_labels_used": false,
+    "cartoon_icons_used": false,
+    "accent_colour": "#315D63",
+    "forecast_horizons_hours": [
+      1,
+      3,
+      6
+    ],
+    "safeguards": [
+      "No future leakage",
+      "Frozen test set"
+    ],
+    "three_pass_qc": "PASS"
+  },
+  "outputs": {
+    "png_600dpi": "C:\\Users\\DELL\\Desktop\\多数据源数据\\2026071901\\SCI_FIGURES\\Figure_3\\Figure3_leakage_controlled_multimodal_framework.png",
+    "png_preview": "C:\\Users\\DELL\\Desktop\\多数据源数据\\2026071901\\SCI_FIGURES\\Figure_3\\Figure3_leakage_controlled_multimodal_framework_preview.png",
+    "pdf_vector": "C:\\Users\\DELL\\Desktop\\多数据源数据\\2026071901\\SCI_FIGURES\\Figure_3\\Figure3_leakage_controlled_multimodal_framework.pdf",
+    "svg_editable": "C:\\Users\\DELL\\Desktop\\多数据源数据\\2026071901\\SCI_FIGURES\\Figure_3\\Figure3_leakage_controlled_multimodal_framework.svg",
+    "audit_csv": "C:\\Users\\DELL\\Desktop\\多数据源数据\\2026071901\\SCI_FIGURES\\Figure_3\\Figure3_component_audit.csv",
+    "caption_md": "C:\\Users\\DELL\\Desktop\\多数据源数据\\2026071901\\SCI_FIGURES\\Figure_3\\Figure3_caption.md"
+  },
+  "source_sha256": {
+    "source_data_csv": "223d530e4a6b6449982ed1812cbc927f2f15c4af3b80fdc6a6c2f779fa977fd2",
+    "study_config_final_yaml": "6e560c7c397ac4704145ce851fc37d286f283725727e4550cf3695d0a9197e00",
+    "model_manifest_yaml": "f6a7f6b689ad4e1819dc645bad019ed185727c775e81108f723d9011307d8bec"
+  }
+}

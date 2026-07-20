@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,train_samples,validation_samples,test_samples,input_feature_count,encoded_feature_count,best_iteration,best_validation_MAE,elapsed_seconds,test_used_for_selection
+meteorology_ablation,M3_wind,1,42,new_fixed_protocol_fit,68963,14337,13641,33,85,263,0.8364832021954453,1.3750107288360596,False
+meteorology_ablation,M3_wind,1,2025,new_fixed_protocol_fit,68963,14337,13641,33,85,246,0.8353007319848758,1.3699986934661865,False
+meteorology_ablation,M3_wind,1,20260623,new_fixed_protocol_fit,68963,14337,13641,33,85,253,0.830780714569443,1.3570663928985596,False
+meteorology_ablation,M3_wind,1,20260715,new_fixed_protocol_fit,68963,14337,13641,33,85,341,0.8310268496821812,1.7219994068145752,False
+meteorology_ablation,M3_wind,1,20260718,new_fixed_protocol_fit,68963,14337,13641,33,85,343,0.8384136132900624,1.7130005359649658,False
+meteorology_ablation,M3_wind,3,42,new_fixed_protocol_fit,68870,14235,13539,33,85,281,0.9002039704023013,1.4530675411224365,False
+meteorology_ablation,M3_wind,3,2025,new_fixed_protocol_fit,68870,14235,13539,33,85,267,0.905072173027143,1.4630589485168457,False
+meteorology_ablation,M3_wind,3,20260623,new_fixed_protocol_fit,68870,14235,13539,33,85,300,0.9090675187856221,1.622011423110962,False
+meteorology_ablation,M3_wind,3,20260715,new_fixed_protocol_fit,68870,14235,13539,33,85,323,0.9032264685354444,1.652996301651001,False
+meteorology_ablation,M3_wind,3,20260718,new_fixed_protocol_fit,68870,14235,13539,33,85,322,0.9061332402498964,1.6120076179504395,False
+meteorology_ablation,M3_wind,6,42,new_fixed_protocol_fit,68717,14084,13387,33,85,310,0.9380699231928636,1.5729906558990479,False
+meteorology_ablation,M3_wind,6,2025,new_fixed_protocol_fit,68717,14084,13387,33,85,261,0.9343558601004534,1.38800048828125,False
+meteorology_ablation,M3_wind,6,20260623,new_fixed_protocol_fit,68717,14084,13387,33,85,299,0.9326938089068997,1.5780696868896484,False
+meteorology_ablation,M3_wind,6,20260715,new_fixed_protocol_fit,68717,14084,13387,33,85,336,0.9407167658146319,1.656998872756958,False
+meteorology_ablation,M3_wind,6,20260718,new_fixed_protocol_fit,68717,14084,13387,33,85,278,0.9426730717152771,1.5099983215332031,False

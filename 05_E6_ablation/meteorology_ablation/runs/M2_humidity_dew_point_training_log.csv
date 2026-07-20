@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,train_samples,validation_samples,test_samples,input_feature_count,encoded_feature_count,best_iteration,best_validation_MAE,elapsed_seconds,test_used_for_selection
+meteorology_ablation,M2_humidity_dew_point,1,42,new_fixed_protocol_fit,68963,14337,13641,28,80,263,0.833067124031441,1.3559985160827637,False
+meteorology_ablation,M2_humidity_dew_point,1,2025,new_fixed_protocol_fit,68963,14337,13641,28,80,282,0.8389109403774264,1.3830015659332275,False
+meteorology_ablation,M2_humidity_dew_point,1,20260623,new_fixed_protocol_fit,68963,14337,13641,28,80,255,0.83670971863704,1.3800487518310547,False
+meteorology_ablation,M2_humidity_dew_point,1,20260715,new_fixed_protocol_fit,68963,14337,13641,28,80,241,0.837775660981325,1.255000114440918,False
+meteorology_ablation,M2_humidity_dew_point,1,20260718,new_fixed_protocol_fit,68963,14337,13641,28,80,320,0.831544567985399,1.534998893737793,False
+meteorology_ablation,M2_humidity_dew_point,3,42,new_fixed_protocol_fit,68870,14235,13539,28,80,240,0.931413948774589,1.2770006656646729,False
+meteorology_ablation,M2_humidity_dew_point,3,2025,new_fixed_protocol_fit,68870,14235,13539,28,80,266,0.930557380008999,1.3429737091064453,False
+meteorology_ablation,M2_humidity_dew_point,3,20260623,new_fixed_protocol_fit,68870,14235,13539,28,80,248,0.9285687457648419,1.2809984683990479,False
+meteorology_ablation,M2_humidity_dew_point,3,20260715,new_fixed_protocol_fit,68870,14235,13539,28,80,304,0.9264198283124145,1.4690041542053223,False
+meteorology_ablation,M2_humidity_dew_point,3,20260718,new_fixed_protocol_fit,68870,14235,13539,28,80,254,0.9247425390202664,1.320000410079956,False
+meteorology_ablation,M2_humidity_dew_point,6,42,new_fixed_protocol_fit,68717,14084,13387,28,80,265,0.9620243119638232,1.375993013381958,False
+meteorology_ablation,M2_humidity_dew_point,6,2025,new_fixed_protocol_fit,68717,14084,13387,28,80,261,0.9609807377950402,1.4010016918182373,False
+meteorology_ablation,M2_humidity_dew_point,6,20260623,new_fixed_protocol_fit,68717,14084,13387,28,80,252,0.9603887025485895,1.29600191116333,False
+meteorology_ablation,M2_humidity_dew_point,6,20260715,new_fixed_protocol_fit,68717,14084,13387,28,80,260,0.9605680148529079,1.3389990329742432,False
+meteorology_ablation,M2_humidity_dew_point,6,20260718,new_fixed_protocol_fit,68717,14084,13387,28,80,284,0.9582743223537542,1.4640073776245117,False

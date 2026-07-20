@@ -1,0 +1,4 @@
+optional_item,status,reason
+GRU benchmark,NOT_RUN_OPTIONAL,TCN is the required deep benchmark; GRU was explicitly optional.
+SHAP,NOT_RUN_OPTIONAL,Required group permutation importance was completed; SHAP was optional.
+Heavy-rain inferential analysis,DESCRIPTIVE_ONLY,Insufficient independent test events; excluded from main claims by protocol.

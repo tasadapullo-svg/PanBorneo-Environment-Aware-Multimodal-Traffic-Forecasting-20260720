@@ -1,0 +1,13 @@
+frozen_before_test_analysis: true
+threshold_source: pre-existing train-split p75 labels frozen before test evaluation
+definitions:
+  S1_dry: precipitation <= 0 at forecast origin
+  S2_rain: rain_flag at forecast origin
+  S3_widespread_rain: pre-existing widespread_rain_flag
+  S4_post_rain_1_3h: pre-existing post_rain_1_3h
+  S5_post_rain_4_6h: pre-existing post_rain_4_6h
+  S6_elevated_pm2_5: pre-existing upper_quartile_pm25_context; evaluation label only
+  S7_elevated_aod: pre-existing upper_quartile_aod_context; evaluation label only
+  S8_rain_elevated_atmospheric_pollution: pre-existing rain_with_upper_quartile_pollution;
+    evaluation label only
+heavy_rain: supplementary/descriptive only due to insufficient independent test events

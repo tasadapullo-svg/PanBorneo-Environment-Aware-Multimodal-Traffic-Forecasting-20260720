@@ -1,0 +1,17 @@
+{
+  "model": "UQ_T1_traffic_only",
+  "horizon": 1,
+  "seed": 20260718,
+  "feature_count": 25,
+  "encoded_feature_count": 77,
+  "train_samples": 68963,
+  "tuning_samples": 7472,
+  "calibration_samples": 6865,
+  "test_samples": 13641,
+  "best_iteration": 699,
+  "best_tuning_quantile_loss": 0.3268284650949236,
+  "elapsed_seconds": 9.019994735717773,
+  "test_used_for_model_selection": false,
+  "checkpoint": "09_E7_UQ\\best_checkpoint\\UQ_T1_traffic_only_h1_seed20260718.json",
+  "checkpoint_sha256": "1643ea471ef7295d825f656585b578b50e299676913d67372a0faf210da8c239"
+}

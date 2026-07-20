@@ -1,0 +1,131 @@
+feature,dtype,group,role,included_as_predictor,missing_count,imputation_rule
+node_id,object,identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+timestamp_local,datetime64[us],identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+split,object,identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+uq_partition,string,identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+current_speed_input,float64,traffic,predictor,True,1,causal LOCF
+free_flow_speed_input,float64,traffic,predictor,True,1,causal LOCF
+current_travel_time_input,float64,traffic,predictor,True,1,causal LOCF
+tti_input,float64,traffic,predictor,True,1,causal LOCF
+speed_ratio_input,float64,traffic,predictor,True,1,causal LOCF
+speed_drop_input,float64,traffic,predictor,True,1,causal LOCF
+travel_time_delay_input,float64,traffic,predictor,True,1,causal LOCF
+speed_deficit_ratio_input,float64,traffic,predictor,True,1,causal LOCF
+missing_mask,int64,reliability,predictor,True,0,training-only median if required
+gap_length_steps,int64,reliability,predictor,True,0,training-only median if required
+coverage_ratio_6h,float64,reliability,predictor,True,0,training-only median if required
+coverage_ratio_24h,float64,reliability,predictor,True,0,training-only median if required
+volatility_tti_3h,float64,reliability,predictor,True,0,training-only median if required
+volatility_tti_6h,float64,reliability,predictor,True,0,training-only median if required
+confidence_input,float64,reliability,predictor,True,0,training-only median if required
+reliability_score,float64,reliability,predictor,True,0,training-only median if required
+hour_sin,float64,calendar,predictor,True,0,training-only median if required
+hour_cos,float64,calendar,predictor,True,0,training-only median if required
+dayofweek_sin,float64,calendar,predictor,True,0,training-only median if required
+dayofweek_cos,float64,calendar,predictor,True,0,training-only median if required
+is_weekend,int64,calendar,predictor,True,0,training-only median if required
+is_public_holiday,bool,calendar,predictor,True,0,training-only median if required
+is_school_holiday,bool,calendar,predictor,True,0,training-only median if required
+is_holiday_eve,bool,calendar,predictor,True,0,training-only median if required
+is_day_after_holiday,bool,calendar,predictor,True,0,training-only median if required
+precipitation,float64,rainfall,predictor,True,0,training-only median if required
+rain_flag,bool,rainfall,predictor,True,0,training-only median if required
+rain_lag_1h,float64,rainfall,predictor,True,0,training-only median if required
+rain_lag_3h,float64,rainfall,predictor,True,0,training-only median if required
+rain_lag_6h,float64,rainfall,predictor,True,0,training-only median if required
+rain_sum_3h,float64,rainfall,predictor,True,0,training-only median if required
+rain_sum_6h,float64,rainfall,predictor,True,0,training-only median if required
+rain_sum_12h,float64,rainfall,predictor,True,0,training-only median if required
+rain_sum_24h,float64,rainfall,predictor,True,0,training-only median if required
+rain_max_3h,float64,rainfall,predictor,True,0,training-only median if required
+rain_max_6h,float64,rainfall,predictor,True,0,training-only median if required
+post_rain_1_3h,bool,rainfall,predictor,True,0,training-only median if required
+post_rain_4_6h,bool,rainfall,predictor,True,0,training-only median if required
+post_rain_7_12h,bool,rainfall,predictor,True,0,training-only median if required
+wet_grid_fraction,float64,identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+wet_node_fraction,float64,identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+corridor_mean_rainfall,float64,identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+corridor_max_rainfall,float64,identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+corridor_cumulative_rainfall,float64,identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+hours_since_corridor_rain,int64,identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+rain_missing_flag,bool,rainfall,predictor,True,0,training-only median if required
+temperature_2m,float64,meteorology,predictor,True,0,training-only median if required
+relative_humidity_2m,int64,meteorology,predictor,True,0,training-only median if required
+dew_point_2m,float64,meteorology,predictor,True,0,training-only median if required
+surface_pressure,float64,meteorology,predictor,True,0,training-only median if required
+wind_speed_10m,float64,meteorology,predictor,True,0,training-only median if required
+wind_gusts_10m,float64,meteorology,predictor,True,0,training-only median if required
+wind_u,float64,meteorology,predictor,True,0,training-only median if required
+wind_v,float64,meteorology,predictor,True,0,training-only median if required
+wind_calm_flag,bool,meteorology,predictor,True,0,training-only median if required
+wind_gust_ratio,float64,meteorology,predictor,True,110,training-only median if required
+wind_gust_ratio_missing_flag,bool,meteorology,predictor,True,0,training-only median if required
+cloud_cover,int64,meteorology,predictor,True,0,training-only median if required
+boundary_layer_height,float64,meteorology,predictor,True,0,training-only median if required
+shortwave_radiation,float64,meteorology,predictor,True,0,training-only median if required
+weather_code,int64,identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+weather_missing_flag,bool,meteorology,predictor,True,0,training-only median if required
+pm2_5,float64,atmospheric,predictor,True,0,training-only median if required
+pm10,float64,atmospheric,predictor,True,0,training-only median if required
+nitrogen_dioxide,float64,atmospheric,predictor,True,0,training-only median if required
+carbon_monoxide,float64,atmospheric,predictor,True,0,training-only median if required
+ozone,float64,atmospheric,predictor,True,0,training-only median if required
+sulphur_dioxide,float64,atmospheric,predictor,True,0,training-only median if required
+aerosol_optical_depth,float64,atmospheric,predictor,True,0,training-only median if required
+dust,float64,atmospheric,predictor,True,0,training-only median if required
+pm2_5_lag_1h,float64,atmospheric,predictor,True,0,training-only median if required
+pm2_5_lag_3h,float64,atmospheric,predictor,True,0,training-only median if required
+pm2_5_lag_6h,float64,atmospheric,predictor,True,0,training-only median if required
+pm2_5_mean_3h,float64,atmospheric,predictor,True,0,training-only median if required
+pm2_5_mean_6h,float64,atmospheric,predictor,True,0,training-only median if required
+pm2_5_mean_24h,float64,atmospheric,predictor,True,0,training-only median if required
+aerosol_optical_depth_lag_1h,float64,atmospheric,predictor,True,0,training-only median if required
+aerosol_optical_depth_lag_3h,float64,atmospheric,predictor,True,0,training-only median if required
+aerosol_optical_depth_lag_6h,float64,atmospheric,predictor,True,0,training-only median if required
+aerosol_optical_depth_mean_3h,float64,atmospheric,predictor,True,0,training-only median if required
+aerosol_optical_depth_mean_6h,float64,atmospheric,predictor,True,0,training-only median if required
+aerosol_optical_depth_mean_24h,float64,atmospheric,predictor,True,0,training-only median if required
+nitrogen_dioxide_lag_1h,float64,atmospheric,predictor,True,0,training-only median if required
+nitrogen_dioxide_lag_3h,float64,atmospheric,predictor,True,0,training-only median if required
+nitrogen_dioxide_lag_6h,float64,atmospheric,predictor,True,0,training-only median if required
+nitrogen_dioxide_mean_3h,float64,atmospheric,predictor,True,0,training-only median if required
+nitrogen_dioxide_mean_6h,float64,atmospheric,predictor,True,0,training-only median if required
+nitrogen_dioxide_mean_24h,float64,atmospheric,predictor,True,0,training-only median if required
+ozone_mean_8h,float64,atmospheric,predictor,True,0,training-only median if required
+air_quality_missing_flag,bool,atmospheric,predictor,True,0,training-only median if required
+corridor_km,float64,road,predictor,True,0,training-only median if required
+elevation_m,float64,road,predictor,True,0,training-only median if required
+road_class,object,road,predictor,True,0,training-only median if required
+lane_count,float64,road,predictor,True,5937,training-only median if required
+lane_count_missing_flag,bool,road,predictor,True,0,training-only median if required
+urban_rural,object,road,predictor,True,0,training-only median if required
+distance_to_nearest_junction,float64,road,predictor,True,0,training-only median if required
+osm_bridge_tagged,bool,road,predictor,True,0,training-only median if required
+distance_to_settlement,float64,road,predictor,True,0,training-only median if required
+distance_to_major_intersection,float64,road,predictor,True,0,training-only median if required
+target_timestamp_h1,datetime64[us],identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+target_split_h1,string,identifier_target_or_protocol,metadata_or_target,False,51,not applicable
+target_available_h1,bool[pyarrow],identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+sample_id_h1,string,identifier_target_or_protocol,metadata_or_target,False,3987,not applicable
+target_speed_h1,float64,identifier_target_or_protocol,metadata_or_target,False,3987,not applicable
+target_uq_partition_h1,string,identifier_target_or_protocol,metadata_or_target,False,51,not applicable
+uq_sample_available_h1,bool[pyarrow],identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+target_timestamp_h3,datetime64[us],identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+target_split_h3,string,identifier_target_or_protocol,metadata_or_target,False,153,not applicable
+target_available_h3,bool[pyarrow],identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+sample_id_h3,string,identifier_target_or_protocol,metadata_or_target,False,4284,not applicable
+target_speed_h3,float64,identifier_target_or_protocol,metadata_or_target,False,4284,not applicable
+target_uq_partition_h3,string,identifier_target_or_protocol,metadata_or_target,False,153,not applicable
+uq_sample_available_h3,bool[pyarrow],identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+target_timestamp_h6,datetime64[us],identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+target_split_h6,string,identifier_target_or_protocol,metadata_or_target,False,306,not applicable
+target_available_h6,bool[pyarrow],identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+sample_id_h6,string,identifier_target_or_protocol,metadata_or_target,False,4740,not applicable
+target_speed_h6,float64,identifier_target_or_protocol,metadata_or_target,False,4740,not applicable
+target_uq_partition_h6,string,identifier_target_or_protocol,metadata_or_target,False,306,not applicable
+uq_sample_available_h6,bool[pyarrow],identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+causal_input_available,bool,identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+imputation_class,object,identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+sample_eligible_h1,bool,identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+sample_eligible_h3,bool,identifier_target_or_protocol,metadata_or_target,False,0,not applicable
+sample_eligible_h6,bool,identifier_target_or_protocol,metadata_or_target,False,0,not applicable

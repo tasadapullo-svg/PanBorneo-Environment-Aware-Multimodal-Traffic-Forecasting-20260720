@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,train_samples,validation_samples,test_samples,input_feature_count,encoded_feature_count,best_iteration,best_validation_MAE,elapsed_seconds,test_used_for_selection
+rainfall_ablation,R2_current_flag_plus_lag,1,42,new_fixed_protocol_fit,68963,14337,13641,30,82,264,0.8181409867079078,1.3319921493530273,False
+rainfall_ablation,R2_current_flag_plus_lag,1,2025,new_fixed_protocol_fit,68963,14337,13641,30,82,250,0.8222518971984569,1.3079981803894043,False
+rainfall_ablation,R2_current_flag_plus_lag,1,20260623,new_fixed_protocol_fit,68963,14337,13641,30,82,260,0.8161555944297606,1.3660006523132324,False
+rainfall_ablation,R2_current_flag_plus_lag,1,20260715,new_fixed_protocol_fit,68963,14337,13641,30,82,339,0.8159540849158711,1.5849940776824951,False
+rainfall_ablation,R2_current_flag_plus_lag,1,20260718,new_fixed_protocol_fit,68963,14337,13641,30,82,260,0.8180514711660846,1.2910010814666748,False
+rainfall_ablation,R2_current_flag_plus_lag,3,42,new_fixed_protocol_fit,68870,14235,13539,30,82,356,0.908753029354673,1.6839969158172607,False
+rainfall_ablation,R2_current_flag_plus_lag,3,2025,new_fixed_protocol_fit,68870,14235,13539,30,82,314,0.9145670586315674,1.5019996166229248,False
+rainfall_ablation,R2_current_flag_plus_lag,3,20260623,new_fixed_protocol_fit,68870,14235,13539,30,82,300,0.9055346030371625,1.5210590362548828,False
+rainfall_ablation,R2_current_flag_plus_lag,3,20260715,new_fixed_protocol_fit,68870,14235,13539,30,82,298,0.9063484702396695,1.4439365863800049,False
+rainfall_ablation,R2_current_flag_plus_lag,3,20260718,new_fixed_protocol_fit,68870,14235,13539,30,82,359,0.9027386172595759,1.7230074405670166,False
+rainfall_ablation,R2_current_flag_plus_lag,6,42,new_fixed_protocol_fit,68717,14084,13387,30,82,256,0.953026300531597,1.3210737705230713,False
+rainfall_ablation,R2_current_flag_plus_lag,6,2025,new_fixed_protocol_fit,68717,14084,13387,30,82,265,0.9511238460817042,1.342879056930542,False
+rainfall_ablation,R2_current_flag_plus_lag,6,20260623,new_fixed_protocol_fit,68717,14084,13387,30,82,268,0.9502425154512899,1.4009995460510254,False
+rainfall_ablation,R2_current_flag_plus_lag,6,20260715,new_fixed_protocol_fit,68717,14084,13387,30,82,280,0.9499396686017666,1.3889985084533691,False
+rainfall_ablation,R2_current_flag_plus_lag,6,20260718,new_fixed_protocol_fit,68717,14084,13387,30,82,303,0.9447779117812829,1.4590837955474854,False

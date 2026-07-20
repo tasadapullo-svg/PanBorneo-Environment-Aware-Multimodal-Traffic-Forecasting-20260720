@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,train_samples,validation_samples,test_samples,input_feature_count,encoded_feature_count,best_iteration,best_validation_MAE,elapsed_seconds,test_used_for_selection
+modality_ablation,A4_without_environmental_lag_rolling,1,42,new_fixed_protocol_fit,68963,14337,13641,62,120,248,0.8364176809051891,1.531003713607788,False
+modality_ablation,A4_without_environmental_lag_rolling,1,2025,new_fixed_protocol_fit,68963,14337,13641,62,120,246,0.844714411051526,1.5579991340637207,False
+modality_ablation,A4_without_environmental_lag_rolling,1,20260623,new_fixed_protocol_fit,68963,14337,13641,62,120,264,0.8365192980066856,1.6530101299285889,False
+modality_ablation,A4_without_environmental_lag_rolling,1,20260715,new_fixed_protocol_fit,68963,14337,13641,62,120,272,0.8379477584529158,1.6460020542144775,False
+modality_ablation,A4_without_environmental_lag_rolling,1,20260718,new_fixed_protocol_fit,68963,14337,13641,62,120,266,0.8424406454072069,1.5870003700256348,False
+modality_ablation,A4_without_environmental_lag_rolling,3,42,new_fixed_protocol_fit,68870,14235,13539,62,120,219,0.9612258893714104,1.44899582862854,False
+modality_ablation,A4_without_environmental_lag_rolling,3,2025,new_fixed_protocol_fit,68870,14235,13539,62,120,219,0.9711984271956278,1.4470057487487793,False
+modality_ablation,A4_without_environmental_lag_rolling,3,20260623,new_fixed_protocol_fit,68870,14235,13539,62,120,230,0.9814744552060266,1.5840647220611572,False
+modality_ablation,A4_without_environmental_lag_rolling,3,20260715,new_fixed_protocol_fit,68870,14235,13539,62,120,209,0.9768154195203336,1.4689974784851074,False
+modality_ablation,A4_without_environmental_lag_rolling,3,20260718,new_fixed_protocol_fit,68870,14235,13539,62,120,221,0.9716073076725844,1.4590003490447998,False
+modality_ablation,A4_without_environmental_lag_rolling,6,42,new_fixed_protocol_fit,68717,14084,13387,62,120,223,1.0618030298369001,1.4560017585754395,False
+modality_ablation,A4_without_environmental_lag_rolling,6,2025,new_fixed_protocol_fit,68717,14084,13387,62,120,206,1.050489510436249,1.3721067905426025,False
+modality_ablation,A4_without_environmental_lag_rolling,6,20260623,new_fixed_protocol_fit,68717,14084,13387,62,120,218,1.0559701517338578,1.4730074405670166,False
+modality_ablation,A4_without_environmental_lag_rolling,6,20260715,new_fixed_protocol_fit,68717,14084,13387,62,120,200,1.0463808991969292,1.3349878787994385,False
+modality_ablation,A4_without_environmental_lag_rolling,6,20260718,new_fixed_protocol_fit,68717,14084,13387,62,120,214,1.0446805443421103,1.4049983024597168,False

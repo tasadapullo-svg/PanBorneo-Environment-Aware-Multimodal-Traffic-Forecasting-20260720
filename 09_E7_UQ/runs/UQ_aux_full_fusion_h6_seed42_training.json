@@ -1,0 +1,17 @@
+{
+  "model": "UQ_aux_full_fusion",
+  "horizon": 6,
+  "seed": 42,
+  "feature_count": 93,
+  "encoded_feature_count": 151,
+  "train_samples": 68717,
+  "tuning_samples": 7468,
+  "calibration_samples": 6616,
+  "test_samples": 13387,
+  "best_iteration": 698,
+  "best_tuning_quantile_loss": 0.3631640770079103,
+  "elapsed_seconds": 11.328999757766724,
+  "test_used_for_model_selection": false,
+  "checkpoint": "09_E7_UQ\\best_checkpoint\\UQ_aux_full_fusion_h6_seed42.json",
+  "checkpoint_sha256": "515fb88c54cf151440d612c81f45ac3fac790e6058d50696d1dcfc02a2221d38"
+}

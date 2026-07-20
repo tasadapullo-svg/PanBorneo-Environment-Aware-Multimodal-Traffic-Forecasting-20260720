@@ -1,0 +1,10 @@
+horizon,split,origin_rows,eligible_rows,target_timestamp_offset_mismatch,target_value_mismatch_vs_raw_future,target_crosses_split,missing_sample_id_on_eligible,status
+1,train,70686,68963,0,0,0,0,PASS
+1,validation,15147,14337,0,0,0,0,PASS
+1,test,15096,13641,0,0,0,0,PASS
+3,train,70686,68870,0,0,0,0,PASS
+3,validation,15147,14235,0,0,0,0,PASS
+3,test,15096,13539,0,0,0,0,PASS
+6,train,70686,68717,0,0,0,0,PASS
+6,validation,15147,14084,0,0,0,0,PASS
+6,test,15096,13387,0,0,0,0,PASS

@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,train_samples,validation_samples,test_samples,input_feature_count,encoded_feature_count,best_iteration,best_validation_MAE,elapsed_seconds,test_used_for_selection
+modality_ablation,A1_without_rainfall,1,42,new_fixed_protocol_fit,68963,14337,13641,78,136,249,0.8496044634143004,1.8799989223480225,False
+modality_ablation,A1_without_rainfall,1,2025,new_fixed_protocol_fit,68963,14337,13641,78,136,231,0.8719032020459757,1.6369988918304443,False
+modality_ablation,A1_without_rainfall,1,20260623,new_fixed_protocol_fit,68963,14337,13641,78,136,224,0.8586354788821254,1.6570019721984863,False
+modality_ablation,A1_without_rainfall,1,20260715,new_fixed_protocol_fit,68963,14337,13641,78,136,236,0.8607457948461058,1.650007724761963,False
+modality_ablation,A1_without_rainfall,1,20260718,new_fixed_protocol_fit,68963,14337,13641,78,136,243,0.8547236815135483,1.709998607635498,False
+modality_ablation,A1_without_rainfall,3,42,new_fixed_protocol_fit,68870,14235,13539,78,136,196,1.021917722867504,1.4879930019378662,False
+modality_ablation,A1_without_rainfall,3,2025,new_fixed_protocol_fit,68870,14235,13539,78,136,193,1.014692707014871,1.497006893157959,False
+modality_ablation,A1_without_rainfall,3,20260623,new_fixed_protocol_fit,68870,14235,13539,78,136,193,1.0103701301738175,1.453007459640503,False
+modality_ablation,A1_without_rainfall,3,20260715,new_fixed_protocol_fit,68870,14235,13539,78,136,203,1.0128458535583302,1.5609996318817139,False
+modality_ablation,A1_without_rainfall,3,20260718,new_fixed_protocol_fit,68870,14235,13539,78,136,192,1.0211712722322754,1.4620001316070557,False
+modality_ablation,A1_without_rainfall,6,42,new_fixed_protocol_fit,68717,14084,13387,78,136,213,1.0384300469471899,1.5820064544677734,False
+modality_ablation,A1_without_rainfall,6,2025,new_fixed_protocol_fit,68717,14084,13387,78,136,215,1.0332680609848512,1.5520105361938477,False
+modality_ablation,A1_without_rainfall,6,20260623,new_fixed_protocol_fit,68717,14084,13387,78,136,215,1.03164353515573,1.613067388534546,False
+modality_ablation,A1_without_rainfall,6,20260715,new_fixed_protocol_fit,68717,14084,13387,78,136,225,1.0484026664023167,1.6339330673217773,False
+modality_ablation,A1_without_rainfall,6,20260718,new_fixed_protocol_fit,68717,14084,13387,78,136,222,1.0384586372689677,1.5849993228912354,False

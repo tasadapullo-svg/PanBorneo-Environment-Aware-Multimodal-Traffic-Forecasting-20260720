@@ -1,0 +1,13 @@
+# Final Audit Pass 1 — Data
+
+| check | status | detail |
+| --- | --- | --- |
+| final_node_order_audit.csv | PASS | rows=51 |
+| final_temporal_integrity.csv | PASS | rows=51 |
+| final_split_integrity.csv | PASS | rows=3 |
+| final_target_integrity.csv | PASS | rows=9 |
+| final_lag_rolling_audit.csv | PASS | rows=18 |
+| environment_training_only_imputation_audit.csv | PASS | rows=68 |
+| scenario_labels_absent_from_predictor_table | PASS | none |
+
+Outcome: **PASS**. Node, time, split, target, lag/rolling, missingness, and sample-label separation were checked independently.

@@ -1,0 +1,3 @@
+# Figure 4 caption
+
+**Figure 4. Overall performance of the frozen multimodal configurations.** Points show mean test-set MAE and error bars show ±1 SD across five random seeds for the 1, 3 and 6 h point-speed forecasting horizons. Lines connect the frozen E1 traffic-only, E2 rainfall-aware, E3 meteorology-aware, E4 atmospheric-context-aware and E5 full-fusion configurations in the prespecified display order. Percentages at E5 are the relative MAE changes from the horizon-matched E1 configuration, calculated directly as 100 × [MAE(E5) − MAE(E1)] / MAE(E1); positive values indicate higher error. No significance symbols are displayed.

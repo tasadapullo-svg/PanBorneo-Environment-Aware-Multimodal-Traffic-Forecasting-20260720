@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,train_samples,validation_samples,test_samples,input_feature_count,encoded_feature_count,best_iteration,best_validation_MAE,elapsed_seconds,test_used_for_selection
+modality_ablation,A6_without_road_context,1,42,new_fixed_protocol_fit,68963,14337,13641,83,135,243,0.8601359392448042,1.6819956302642822,False
+modality_ablation,A6_without_road_context,1,2025,new_fixed_protocol_fit,68963,14337,13641,83,135,253,0.8699101080012769,1.7660024166107178,False
+modality_ablation,A6_without_road_context,1,20260623,new_fixed_protocol_fit,68963,14337,13641,83,135,208,0.8561639278231201,1.5210072994232178,False
+modality_ablation,A6_without_road_context,1,20260715,new_fixed_protocol_fit,68963,14337,13641,83,135,230,0.8633124649570421,1.6049823760986328,False
+modality_ablation,A6_without_road_context,1,20260718,new_fixed_protocol_fit,68963,14337,13641,83,135,240,0.8677904669556847,1.659003496170044,False
+modality_ablation,A6_without_road_context,3,42,new_fixed_protocol_fit,68870,14235,13539,83,135,223,1.0124691921993854,1.6040072441101074,False
+modality_ablation,A6_without_road_context,3,2025,new_fixed_protocol_fit,68870,14235,13539,83,135,214,1.0198682946492212,1.541996955871582,False
+modality_ablation,A6_without_road_context,3,20260623,new_fixed_protocol_fit,68870,14235,13539,83,135,222,1.0128008638468382,1.5889992713928223,False
+modality_ablation,A6_without_road_context,3,20260715,new_fixed_protocol_fit,68870,14235,13539,83,135,202,0.998177259262294,1.5339984893798828,False
+modality_ablation,A6_without_road_context,3,20260718,new_fixed_protocol_fit,68870,14235,13539,83,135,211,1.0150737708855144,1.524001121520996,False
+modality_ablation,A6_without_road_context,6,42,new_fixed_protocol_fit,68717,14084,13387,83,135,238,1.0243008406925391,1.6560025215148926,False
+modality_ablation,A6_without_road_context,6,2025,new_fixed_protocol_fit,68717,14084,13387,83,135,213,1.0249654558090213,1.5900027751922607,False
+modality_ablation,A6_without_road_context,6,20260623,new_fixed_protocol_fit,68717,14084,13387,83,135,245,1.0301750955578957,1.6909947395324707,False
+modality_ablation,A6_without_road_context,6,20260715,new_fixed_protocol_fit,68717,14084,13387,83,135,223,1.0299866709374663,1.6440026760101318,False
+modality_ablation,A6_without_road_context,6,20260718,new_fixed_protocol_fit,68717,14084,13387,83,135,215,1.0272273498649998,1.5669958591461182,False

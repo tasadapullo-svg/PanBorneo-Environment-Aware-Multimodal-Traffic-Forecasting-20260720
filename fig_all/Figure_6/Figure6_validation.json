@@ -1,0 +1,136 @@
+{
+  "figure": "Figure 6: Conditional environmental value across FCD reliability and forecast horizons",
+  "generated_at": "2026-07-19T12:21:05.072921+08:00",
+  "sources": {
+    "figure_source": "C:\\Users\\DELL\\Desktop\\多数据源数据\\2026071901\\T2_FINAL_EXPERIMENT_PACKAGE\\12_figure_source_data\\Fig6_environment_reliability_regimes\\source_data.csv",
+    "data_definition": "C:\\Users\\DELL\\Desktop\\多数据源数据\\2026071901\\T2_FINAL_EXPERIMENT_PACKAGE\\12_figure_source_data\\Fig6_environment_reliability_regimes\\data_definition.txt",
+    "study_config": "C:\\Users\\DELL\\Desktop\\多数据源数据\\2026071901\\T2_FINAL_EXPERIMENT_PACKAGE\\00_config\\study_config_final.yaml"
+  },
+  "source_sha256": {
+    "figure_source": "bf64ed009adcb73ae01060893e857258903cbb40dab4c4c779301743effe032f",
+    "data_definition": "af28c1338103ad329e8fc58c0434e204a35ad308ae96db7acb39cb0045c52715",
+    "study_config": "6e560c7c397ac4704145ce851fc37d286f283725727e4550cf3695d0a9197e00"
+  },
+  "source_rows": 144,
+  "heatmap_cells": 108,
+  "horizons_hours": [
+    1,
+    3,
+    6
+  ],
+  "row_order": [
+    "Dry — High",
+    "Dry — Medium",
+    "Dry — Low",
+    "Rain — High",
+    "Rain — Medium",
+    "Rain — Low",
+    "Elevated AOD — High",
+    "Elevated AOD — Medium",
+    "Elevated AOD — Low",
+    "Compound — High",
+    "Compound — Medium",
+    "Compound — Low"
+  ],
+  "column_order": [
+    "Meteorology",
+    "Atmospheric",
+    "Full fusion"
+  ],
+  "delta_definition": "MAE_environmental_configuration minus MAE_E1_traffic_only",
+  "negative_cells": 22,
+  "positive_cells": 86,
+  "minimum_delta_MAE": -0.1376612410922231,
+  "maximum_delta_MAE": 0.4085844077442121,
+  "shared_colour_scale": {
+    "vmin": -0.45,
+    "vcenter": 0.0,
+    "vmax": 0.45,
+    "palette": "colour-blind-friendly blue-white-vermilion"
+  },
+  "reliability_group_rule": "frozen training-defined classification; not recomputed from test data",
+  "significance_stars": false,
+  "atmospheric_elevated_AOD_or_compound_3h_6h": [
+    {
+      "scenario_label": "Elevated AOD",
+      "reliability_group": "High",
+      "horizon": 3,
+      "delta_MAE": -0.04337887621779091
+    },
+    {
+      "scenario_label": "Elevated AOD",
+      "reliability_group": "Medium",
+      "horizon": 3,
+      "delta_MAE": 0.06666776141574782
+    },
+    {
+      "scenario_label": "Elevated AOD",
+      "reliability_group": "Low",
+      "horizon": 3,
+      "delta_MAE": -0.05984497657869614
+    },
+    {
+      "scenario_label": "Compound",
+      "reliability_group": "High",
+      "horizon": 3,
+      "delta_MAE": -0.04184238723228706
+    },
+    {
+      "scenario_label": "Compound",
+      "reliability_group": "Medium",
+      "horizon": 3,
+      "delta_MAE": 0.09882391884688935
+    },
+    {
+      "scenario_label": "Compound",
+      "reliability_group": "Low",
+      "horizon": 3,
+      "delta_MAE": -0.05518944229542444
+    },
+    {
+      "scenario_label": "Elevated AOD",
+      "reliability_group": "High",
+      "horizon": 6,
+      "delta_MAE": 0.004493603474730379
+    },
+    {
+      "scenario_label": "Elevated AOD",
+      "reliability_group": "Medium",
+      "horizon": 6,
+      "delta_MAE": -0.026570104288662577
+    },
+    {
+      "scenario_label": "Elevated AOD",
+      "reliability_group": "Low",
+      "horizon": 6,
+      "delta_MAE": -0.1376612410922231
+    },
+    {
+      "scenario_label": "Compound",
+      "reliability_group": "High",
+      "horizon": 6,
+      "delta_MAE": -0.04526856694177683
+    },
+    {
+      "scenario_label": "Compound",
+      "reliability_group": "Medium",
+      "horizon": 6,
+      "delta_MAE": -0.0520408414508472
+    },
+    {
+      "scenario_label": "Compound",
+      "reliability_group": "Low",
+      "horizon": 6,
+      "delta_MAE": -0.11618147450714833
+    }
+  ],
+  "checks": [
+    "All 144 frozen scenario-reliability-experiment-horizon rows are present and unique.",
+    "Every source MAE is aggregated across the same five seeds.",
+    "E1, E3, E4 and E5 share identical samples within every scenario-reliability-horizon cell.",
+    "Reliability labels are read directly from the frozen source and are training-defined; no test regrouping occurs.",
+    "All 108 heatmap cells were calculated as environmental MAE minus matched E1 MAE.",
+    "A single symmetric colour range [-0.450, 0.450] is shared across all panels."
+  ],
+  "all_checks_passed": true
+}

@@ -1,0 +1,7 @@
+step,component,operation,output
+1,Floating-car traffic,"Causal LOCF, mask, gap, coverage, reliability",Traffic input at forecast origin
+2,Open-Meteo historical weather,Current/lag/cumulative/post-rain plus meteorology,Causal environmental predictors
+3,CAMS-derived gridded composition,Current/lag/rolling atmospheric context,Causal atmospheric predictors
+4,Road context,Verified corridor order and static attributes,Spatial/context predictors
+5,Fixed chronological protocol,Train/tuning/calibration/test; target-boundary purge,No future leakage
+6,Models and evaluation,"E0-E7, scenarios, interactions, block bootstrap",Prediction-level evidence

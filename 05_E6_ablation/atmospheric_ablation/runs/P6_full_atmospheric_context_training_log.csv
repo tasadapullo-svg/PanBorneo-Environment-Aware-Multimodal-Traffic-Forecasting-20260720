@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,best_iteration,elapsed_seconds,test_used_for_selection
+atmospheric_ablation,P6_full_atmospheric_context,1,42,frozen_E4_atmospheric,frozen,0,False
+atmospheric_ablation,P6_full_atmospheric_context,1,2025,frozen_E4_atmospheric,frozen,0,False
+atmospheric_ablation,P6_full_atmospheric_context,1,20260623,frozen_E4_atmospheric,frozen,0,False
+atmospheric_ablation,P6_full_atmospheric_context,1,20260715,frozen_E4_atmospheric,frozen,0,False
+atmospheric_ablation,P6_full_atmospheric_context,1,20260718,frozen_E4_atmospheric,frozen,0,False
+atmospheric_ablation,P6_full_atmospheric_context,3,42,frozen_E4_atmospheric,frozen,0,False
+atmospheric_ablation,P6_full_atmospheric_context,3,2025,frozen_E4_atmospheric,frozen,0,False
+atmospheric_ablation,P6_full_atmospheric_context,3,20260623,frozen_E4_atmospheric,frozen,0,False
+atmospheric_ablation,P6_full_atmospheric_context,3,20260715,frozen_E4_atmospheric,frozen,0,False
+atmospheric_ablation,P6_full_atmospheric_context,3,20260718,frozen_E4_atmospheric,frozen,0,False
+atmospheric_ablation,P6_full_atmospheric_context,6,42,frozen_E4_atmospheric,frozen,0,False
+atmospheric_ablation,P6_full_atmospheric_context,6,2025,frozen_E4_atmospheric,frozen,0,False
+atmospheric_ablation,P6_full_atmospheric_context,6,20260623,frozen_E4_atmospheric,frozen,0,False
+atmospheric_ablation,P6_full_atmospheric_context,6,20260715,frozen_E4_atmospheric,frozen,0,False
+atmospheric_ablation,P6_full_atmospheric_context,6,20260718,frozen_E4_atmospheric,frozen,0,False

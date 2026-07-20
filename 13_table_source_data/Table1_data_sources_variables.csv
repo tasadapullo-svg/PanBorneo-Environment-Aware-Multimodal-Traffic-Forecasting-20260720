@@ -1,0 +1,131 @@
+feature,dtype,group,role,included_as_predictor,missing_count,imputation_rule,data_source
+node_id,object,identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+timestamp_local,datetime64[us],identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+split,object,identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+uq_partition,string,identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+current_speed_input,float64,traffic,predictor,True,1,causal LOCF,Floating-car traffic data
+free_flow_speed_input,float64,traffic,predictor,True,1,causal LOCF,Floating-car traffic data
+current_travel_time_input,float64,traffic,predictor,True,1,causal LOCF,Floating-car traffic data
+tti_input,float64,traffic,predictor,True,1,causal LOCF,Floating-car traffic data
+speed_ratio_input,float64,traffic,predictor,True,1,causal LOCF,Floating-car traffic data
+speed_drop_input,float64,traffic,predictor,True,1,causal LOCF,Floating-car traffic data
+travel_time_delay_input,float64,traffic,predictor,True,1,causal LOCF,Floating-car traffic data
+speed_deficit_ratio_input,float64,traffic,predictor,True,1,causal LOCF,Floating-car traffic data
+missing_mask,int64,reliability,predictor,True,0,training-only median if required,Derived causally from floating-car observations
+gap_length_steps,int64,reliability,predictor,True,0,training-only median if required,Derived causally from floating-car observations
+coverage_ratio_6h,float64,reliability,predictor,True,0,training-only median if required,Derived causally from floating-car observations
+coverage_ratio_24h,float64,reliability,predictor,True,0,training-only median if required,Derived causally from floating-car observations
+volatility_tti_3h,float64,reliability,predictor,True,0,training-only median if required,Derived causally from floating-car observations
+volatility_tti_6h,float64,reliability,predictor,True,0,training-only median if required,Derived causally from floating-car observations
+confidence_input,float64,reliability,predictor,True,0,training-only median if required,Derived causally from floating-car observations
+reliability_score,float64,reliability,predictor,True,0,training-only median if required,Derived causally from floating-car observations
+hour_sin,float64,calendar,predictor,True,0,training-only median if required,Calendar/holiday context
+hour_cos,float64,calendar,predictor,True,0,training-only median if required,Calendar/holiday context
+dayofweek_sin,float64,calendar,predictor,True,0,training-only median if required,Calendar/holiday context
+dayofweek_cos,float64,calendar,predictor,True,0,training-only median if required,Calendar/holiday context
+is_weekend,int64,calendar,predictor,True,0,training-only median if required,Calendar/holiday context
+is_public_holiday,bool,calendar,predictor,True,0,training-only median if required,Calendar/holiday context
+is_school_holiday,bool,calendar,predictor,True,0,training-only median if required,Calendar/holiday context
+is_holiday_eve,bool,calendar,predictor,True,0,training-only median if required,Calendar/holiday context
+is_day_after_holiday,bool,calendar,predictor,True,0,training-only median if required,Calendar/holiday context
+precipitation,float64,rainfall,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+rain_flag,bool,rainfall,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+rain_lag_1h,float64,rainfall,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+rain_lag_3h,float64,rainfall,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+rain_lag_6h,float64,rainfall,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+rain_sum_3h,float64,rainfall,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+rain_sum_6h,float64,rainfall,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+rain_sum_12h,float64,rainfall,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+rain_sum_24h,float64,rainfall,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+rain_max_3h,float64,rainfall,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+rain_max_6h,float64,rainfall,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+post_rain_1_3h,bool,rainfall,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+post_rain_4_6h,bool,rainfall,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+post_rain_7_12h,bool,rainfall,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+wet_grid_fraction,float64,identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+wet_node_fraction,float64,identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+corridor_mean_rainfall,float64,identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+corridor_max_rainfall,float64,identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+corridor_cumulative_rainfall,float64,identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+hours_since_corridor_rain,int64,identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+rain_missing_flag,bool,rainfall,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+temperature_2m,float64,meteorology,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+relative_humidity_2m,int64,meteorology,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+dew_point_2m,float64,meteorology,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+surface_pressure,float64,meteorology,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+wind_speed_10m,float64,meteorology,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+wind_gusts_10m,float64,meteorology,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+wind_u,float64,meteorology,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+wind_v,float64,meteorology,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+wind_calm_flag,bool,meteorology,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+wind_gust_ratio,float64,meteorology,predictor,True,110,training-only median if required,Open-Meteo Historical Weather API
+wind_gust_ratio_missing_flag,bool,meteorology,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+cloud_cover,int64,meteorology,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+boundary_layer_height,float64,meteorology,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+shortwave_radiation,float64,meteorology,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+weather_code,int64,identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+weather_missing_flag,bool,meteorology,predictor,True,0,training-only median if required,Open-Meteo Historical Weather API
+pm2_5,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+pm10,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+nitrogen_dioxide,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+carbon_monoxide,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+ozone,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+sulphur_dioxide,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+aerosol_optical_depth,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+dust,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+pm2_5_lag_1h,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+pm2_5_lag_3h,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+pm2_5_lag_6h,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+pm2_5_mean_3h,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+pm2_5_mean_6h,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+pm2_5_mean_24h,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+aerosol_optical_depth_lag_1h,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+aerosol_optical_depth_lag_3h,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+aerosol_optical_depth_lag_6h,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+aerosol_optical_depth_mean_3h,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+aerosol_optical_depth_mean_6h,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+aerosol_optical_depth_mean_24h,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+nitrogen_dioxide_lag_1h,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+nitrogen_dioxide_lag_3h,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+nitrogen_dioxide_lag_6h,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+nitrogen_dioxide_mean_3h,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+nitrogen_dioxide_mean_6h,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+nitrogen_dioxide_mean_24h,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+ozone_mean_8h,float64,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+air_quality_missing_flag,bool,atmospheric,predictor,True,0,training-only median if required,CAMS-derived gridded atmospheric composition data accessed through Open-Meteo
+corridor_km,float64,road,predictor,True,0,training-only median if required,OpenStreetMap/elevation/static corridor context
+elevation_m,float64,road,predictor,True,0,training-only median if required,OpenStreetMap/elevation/static corridor context
+road_class,object,road,predictor,True,0,training-only median if required,OpenStreetMap/elevation/static corridor context
+lane_count,float64,road,predictor,True,5937,training-only median if required,OpenStreetMap/elevation/static corridor context
+lane_count_missing_flag,bool,road,predictor,True,0,training-only median if required,OpenStreetMap/elevation/static corridor context
+urban_rural,object,road,predictor,True,0,training-only median if required,OpenStreetMap/elevation/static corridor context
+distance_to_nearest_junction,float64,road,predictor,True,0,training-only median if required,OpenStreetMap/elevation/static corridor context
+osm_bridge_tagged,bool,road,predictor,True,0,training-only median if required,OpenStreetMap/elevation/static corridor context
+distance_to_settlement,float64,road,predictor,True,0,training-only median if required,OpenStreetMap/elevation/static corridor context
+distance_to_major_intersection,float64,road,predictor,True,0,training-only median if required,OpenStreetMap/elevation/static corridor context
+target_timestamp_h1,datetime64[us],identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+target_split_h1,string,identifier_target_or_protocol,metadata_or_target,False,51,not applicable,Frozen protocol metadata or target
+target_available_h1,bool[pyarrow],identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+sample_id_h1,string,identifier_target_or_protocol,metadata_or_target,False,3987,not applicable,Frozen protocol metadata or target
+target_speed_h1,float64,identifier_target_or_protocol,metadata_or_target,False,3987,not applicable,Frozen protocol metadata or target
+target_uq_partition_h1,string,identifier_target_or_protocol,metadata_or_target,False,51,not applicable,Frozen protocol metadata or target
+uq_sample_available_h1,bool[pyarrow],identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+target_timestamp_h3,datetime64[us],identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+target_split_h3,string,identifier_target_or_protocol,metadata_or_target,False,153,not applicable,Frozen protocol metadata or target
+target_available_h3,bool[pyarrow],identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+sample_id_h3,string,identifier_target_or_protocol,metadata_or_target,False,4284,not applicable,Frozen protocol metadata or target
+target_speed_h3,float64,identifier_target_or_protocol,metadata_or_target,False,4284,not applicable,Frozen protocol metadata or target
+target_uq_partition_h3,string,identifier_target_or_protocol,metadata_or_target,False,153,not applicable,Frozen protocol metadata or target
+uq_sample_available_h3,bool[pyarrow],identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+target_timestamp_h6,datetime64[us],identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+target_split_h6,string,identifier_target_or_protocol,metadata_or_target,False,306,not applicable,Frozen protocol metadata or target
+target_available_h6,bool[pyarrow],identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+sample_id_h6,string,identifier_target_or_protocol,metadata_or_target,False,4740,not applicable,Frozen protocol metadata or target
+target_speed_h6,float64,identifier_target_or_protocol,metadata_or_target,False,4740,not applicable,Frozen protocol metadata or target
+target_uq_partition_h6,string,identifier_target_or_protocol,metadata_or_target,False,306,not applicable,Frozen protocol metadata or target
+uq_sample_available_h6,bool[pyarrow],identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+causal_input_available,bool,identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+imputation_class,object,identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+sample_eligible_h1,bool,identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+sample_eligible_h3,bool,identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target
+sample_eligible_h6,bool,identifier_target_or_protocol,metadata_or_target,False,0,not applicable,Frozen protocol metadata or target

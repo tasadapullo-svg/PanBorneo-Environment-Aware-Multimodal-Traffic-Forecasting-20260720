@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,train_samples,validation_samples,test_samples,input_feature_count,encoded_feature_count,best_iteration,best_validation_MAE,elapsed_seconds,test_used_for_selection
+meteorology_ablation,M6_temperature_humidity,1,42,new_fixed_protocol_fit,68963,14337,13641,29,81,265,0.8338316318554269,1.379021406173706,False
+meteorology_ablation,M6_temperature_humidity,1,2025,new_fixed_protocol_fit,68963,14337,13641,29,81,314,0.8440484764470028,1.509005069732666,False
+meteorology_ablation,M6_temperature_humidity,1,20260623,new_fixed_protocol_fit,68963,14337,13641,29,81,288,0.8359639934809328,1.4250013828277588,False
+meteorology_ablation,M6_temperature_humidity,1,20260715,new_fixed_protocol_fit,68963,14337,13641,29,81,298,0.8354006084328526,1.4809985160827637,False
+meteorology_ablation,M6_temperature_humidity,1,20260718,new_fixed_protocol_fit,68963,14337,13641,29,81,341,0.8344770235821418,1.6469988822937012,False
+meteorology_ablation,M6_temperature_humidity,3,42,new_fixed_protocol_fit,68870,14235,13539,29,81,264,0.9353408131467111,1.3880743980407715,False
+meteorology_ablation,M6_temperature_humidity,3,2025,new_fixed_protocol_fit,68870,14235,13539,29,81,243,0.9372422654125453,1.2470159530639648,False
+meteorology_ablation,M6_temperature_humidity,3,20260623,new_fixed_protocol_fit,68870,14235,13539,29,81,222,0.9353463354134166,1.1930029392242432,False
+meteorology_ablation,M6_temperature_humidity,3,20260715,new_fixed_protocol_fit,68870,14235,13539,29,81,245,0.936109725877114,1.3099956512451172,False
+meteorology_ablation,M6_temperature_humidity,3,20260718,new_fixed_protocol_fit,68870,14235,13539,29,81,232,0.9324290902312279,1.2270021438598633,False
+meteorology_ablation,M6_temperature_humidity,6,42,new_fixed_protocol_fit,68717,14084,13387,29,81,264,0.9654642344536818,1.3929920196533203,False
+meteorology_ablation,M6_temperature_humidity,6,2025,new_fixed_protocol_fit,68717,14084,13387,29,81,232,0.9689105209116569,1.2280642986297607,False
+meteorology_ablation,M6_temperature_humidity,6,20260623,new_fixed_protocol_fit,68717,14084,13387,29,81,236,0.9691630807392843,1.310955286026001,False
+meteorology_ablation,M6_temperature_humidity,6,20260715,new_fixed_protocol_fit,68717,14084,13387,29,81,217,0.9636566753382034,1.2060115337371826,False
+meteorology_ablation,M6_temperature_humidity,6,20260718,new_fixed_protocol_fit,68717,14084,13387,29,81,228,0.9674398280855812,1.2299959659576416,False

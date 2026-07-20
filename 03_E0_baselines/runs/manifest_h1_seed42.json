@@ -1,0 +1,22 @@
+{
+  "model": "Formal_TCN_24h_causal",
+  "horizon": 1,
+  "seed": 42,
+  "train_samples": 68268,
+  "validation_samples": 14337,
+  "test_samples": 13641,
+  "epochs_run": 52,
+  "best_epoch": 37,
+  "best_validation_MAE": 1.1249210834503174,
+  "final_validation_MAE": 1.1687641143798828,
+  "stop_reason": "early_stopping_patience_reached",
+  "scheduler_enabled": true,
+  "gradient_clipping_norm": 1.0,
+  "train_only_scaling": true,
+  "test_used_for_selection": false,
+  "checkpoint": "03_E0_baselines\\best_checkpoint\\Formal_TCN_h1_seed42.pt",
+  "checkpoint_sha256": "7fab8778ff1e567f0df340c827f1fd10d888697dd6e58796a8b035cf2d135d63",
+  "test_sample_id_sha256": "939f12b7e6fc96602664c3eb6049947274ccbad17789c5b0f9f77202efeb330a",
+  "elapsed_seconds": 2.835451602935791,
+  "convergence_status": "PASS_EARLY_STOPPED"
+}

@@ -1,0 +1,1 @@
+Environmental-regime performance stratified by training-defined High, Medium, and Low FCD reliability.

@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,train_samples,validation_samples,test_samples,input_feature_count,encoded_feature_count,best_iteration,best_validation_MAE,elapsed_seconds,test_used_for_selection
+rainfall_ablation,R3_current_flag_lag_cumulative,1,42,new_fixed_protocol_fit,68963,14337,13641,34,86,263,0.8273985470872033,1.3480043411254883,False
+rainfall_ablation,R3_current_flag_lag_cumulative,1,2025,new_fixed_protocol_fit,68963,14337,13641,34,86,240,0.8303734698937163,1.3010077476501465,False
+rainfall_ablation,R3_current_flag_lag_cumulative,1,20260623,new_fixed_protocol_fit,68963,14337,13641,34,86,282,0.8283610385507106,1.4659998416900635,False
+rainfall_ablation,R3_current_flag_lag_cumulative,1,20260715,new_fixed_protocol_fit,68963,14337,13641,34,86,358,0.8289232327863746,1.773071050643921,False
+rainfall_ablation,R3_current_flag_lag_cumulative,1,20260718,new_fixed_protocol_fit,68963,14337,13641,34,86,388,0.8309466737229813,1.8019256591796875,False
+rainfall_ablation,R3_current_flag_lag_cumulative,3,42,new_fixed_protocol_fit,68870,14235,13539,34,86,260,0.9331833248855275,1.3809988498687744,False
+rainfall_ablation,R3_current_flag_lag_cumulative,3,2025,new_fixed_protocol_fit,68870,14235,13539,34,86,392,0.932228252784721,1.8189945220947266,False
+rainfall_ablation,R3_current_flag_lag_cumulative,3,20260623,new_fixed_protocol_fit,68870,14235,13539,34,86,327,0.9372329417135911,1.6159989833831787,False
+rainfall_ablation,R3_current_flag_lag_cumulative,3,20260715,new_fixed_protocol_fit,68870,14235,13539,34,86,341,0.9328621631511103,1.696000576019287,False
+rainfall_ablation,R3_current_flag_lag_cumulative,3,20260718,new_fixed_protocol_fit,68870,14235,13539,34,86,292,0.9340174615697188,1.5470013618469238,False
+rainfall_ablation,R3_current_flag_lag_cumulative,6,42,new_fixed_protocol_fit,68717,14084,13387,34,86,257,0.9717462281549698,1.3549985885620117,False
+rainfall_ablation,R3_current_flag_lag_cumulative,6,2025,new_fixed_protocol_fit,68717,14084,13387,34,86,295,0.9722650263059617,1.494999885559082,False
+rainfall_ablation,R3_current_flag_lag_cumulative,6,20260623,new_fixed_protocol_fit,68717,14084,13387,34,86,237,0.9681147715138698,1.3200011253356934,False
+rainfall_ablation,R3_current_flag_lag_cumulative,6,20260715,new_fixed_protocol_fit,68717,14084,13387,34,86,289,0.9659356392435444,1.5269966125488281,False
+rainfall_ablation,R3_current_flag_lag_cumulative,6,20260718,new_fixed_protocol_fit,68717,14084,13387,34,86,271,0.9709838423259013,1.4339995384216309,False

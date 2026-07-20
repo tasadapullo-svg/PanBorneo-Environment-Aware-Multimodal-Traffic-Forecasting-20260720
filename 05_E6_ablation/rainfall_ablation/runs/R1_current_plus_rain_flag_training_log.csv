@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,train_samples,validation_samples,test_samples,input_feature_count,encoded_feature_count,best_iteration,best_validation_MAE,elapsed_seconds,test_used_for_selection
+rainfall_ablation,R1_current_plus_rain_flag,1,42,new_fixed_protocol_fit,68963,14337,13641,27,79,315,0.8123425987048354,1.5300548076629639,False
+rainfall_ablation,R1_current_plus_rain_flag,1,2025,new_fixed_protocol_fit,68963,14337,13641,27,79,310,0.8194057482958688,1.483931064605713,False
+rainfall_ablation,R1_current_plus_rain_flag,1,20260623,new_fixed_protocol_fit,68963,14337,13641,27,79,319,0.8127662071733035,1.5630011558532715,False
+rainfall_ablation,R1_current_plus_rain_flag,1,20260715,new_fixed_protocol_fit,68963,14337,13641,27,79,351,0.8130650719547319,1.6399991512298584,False
+rainfall_ablation,R1_current_plus_rain_flag,1,20260718,new_fixed_protocol_fit,68963,14337,13641,27,79,248,0.8132807893999835,1.2590672969818115,False
+rainfall_ablation,R1_current_plus_rain_flag,3,42,new_fixed_protocol_fit,68870,14235,13539,27,79,612,0.8922274334622468,2.53700852394104,False
+rainfall_ablation,R1_current_plus_rain_flag,3,2025,new_fixed_protocol_fit,68870,14235,13539,27,79,390,0.9019472897324933,1.8369910717010498,False
+rainfall_ablation,R1_current_plus_rain_flag,3,20260623,new_fixed_protocol_fit,68870,14235,13539,27,79,293,0.9030656947895314,1.5559988021850586,False
+rainfall_ablation,R1_current_plus_rain_flag,3,20260715,new_fixed_protocol_fit,68870,14235,13539,27,79,315,0.903533186408399,1.5070044994354248,False
+rainfall_ablation,R1_current_plus_rain_flag,3,20260718,new_fixed_protocol_fit,68870,14235,13539,27,79,469,0.8945649221063204,2.032006025314331,False
+rainfall_ablation,R1_current_plus_rain_flag,6,42,new_fixed_protocol_fit,68717,14084,13387,27,79,410,0.9354917517577813,1.8729913234710693,False
+rainfall_ablation,R1_current_plus_rain_flag,6,2025,new_fixed_protocol_fit,68717,14084,13387,27,79,395,0.9382656551633021,1.7920012474060059,False
+rainfall_ablation,R1_current_plus_rain_flag,6,20260623,new_fixed_protocol_fit,68717,14084,13387,27,79,347,0.9299560235122901,1.6580002307891846,False
+rainfall_ablation,R1_current_plus_rain_flag,6,20260715,new_fixed_protocol_fit,68717,14084,13387,27,79,364,0.9368578380767814,1.6959986686706543,False
+rainfall_ablation,R1_current_plus_rain_flag,6,20260718,new_fixed_protocol_fit,68717,14084,13387,27,79,340,0.9367312118770791,1.579075574874878,False

@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,train_samples,validation_samples,test_samples,input_feature_count,encoded_feature_count,best_iteration,best_validation_MAE,elapsed_seconds,test_used_for_selection
+meteorology_ablation,M4_pressure,1,42,new_fixed_protocol_fit,68963,14337,13641,27,79,364,0.8097965717814561,1.7169959545135498,False
+meteorology_ablation,M4_pressure,1,2025,new_fixed_protocol_fit,68963,14337,13641,27,79,315,0.8184663584069859,1.5279879570007324,False
+meteorology_ablation,M4_pressure,1,20260623,new_fixed_protocol_fit,68963,14337,13641,27,79,452,0.809700056109176,2.088081121444702,False
+meteorology_ablation,M4_pressure,1,20260715,new_fixed_protocol_fit,68963,14337,13641,27,79,400,0.8103061073900824,1.7969982624053955,False
+meteorology_ablation,M4_pressure,1,20260718,new_fixed_protocol_fit,68963,14337,13641,27,79,397,0.8126680701815152,1.78800368309021,False
+meteorology_ablation,M4_pressure,3,42,new_fixed_protocol_fit,68870,14235,13539,27,79,502,0.8863502426067067,2.2139315605163574,False
+meteorology_ablation,M4_pressure,3,2025,new_fixed_protocol_fit,68870,14235,13539,27,79,489,0.8900685389752886,2.151000499725342,False
+meteorology_ablation,M4_pressure,3,20260623,new_fixed_protocol_fit,68870,14235,13539,27,79,426,0.8862594918028949,1.9829926490783691,False
+meteorology_ablation,M4_pressure,3,20260715,new_fixed_protocol_fit,68870,14235,13539,27,79,427,0.8910160864617978,1.9699976444244385,False
+meteorology_ablation,M4_pressure,3,20260718,new_fixed_protocol_fit,68870,14235,13539,27,79,458,0.885914122216694,2.034003734588623,False
+meteorology_ablation,M4_pressure,6,42,new_fixed_protocol_fit,68717,14084,13387,27,79,359,0.9222654942862184,1.6840002536773682,False
+meteorology_ablation,M4_pressure,6,2025,new_fixed_protocol_fit,68717,14084,13387,27,79,428,0.926040948706911,1.9299993515014648,False
+meteorology_ablation,M4_pressure,6,20260623,new_fixed_protocol_fit,68717,14084,13387,27,79,422,0.923104588466082,1.896127462387085,False
+meteorology_ablation,M4_pressure,6,20260715,new_fixed_protocol_fit,68717,14084,13387,27,79,465,0.9194133761795161,2.110011577606201,False
+meteorology_ablation,M4_pressure,6,20260718,new_fixed_protocol_fit,68717,14084,13387,27,79,338,0.926146582154109,1.665001630783081,False

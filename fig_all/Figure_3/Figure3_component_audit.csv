@@ -1,0 +1,18 @@
+﻿record_type,evidence_source,evidence_item,status,figure_element,detail
+frozen_source_component,C:\Users\DELL\Desktop\多数据源数据\2026071901\T2_FINAL_EXPERIMENT_PACKAGE\12_figure_source_data\Fig3_method_framework\source_data.csv,Step 1: Floating-car traffic,PASS,Traffic input at forecast origin,"Causal LOCF, mask, gap, coverage, reliability"
+frozen_source_component,C:\Users\DELL\Desktop\多数据源数据\2026071901\T2_FINAL_EXPERIMENT_PACKAGE\12_figure_source_data\Fig3_method_framework\source_data.csv,Step 2: Open-Meteo historical weather,PASS,Causal environmental predictors,Current/lag/cumulative/post-rain plus meteorology
+frozen_source_component,C:\Users\DELL\Desktop\多数据源数据\2026071901\T2_FINAL_EXPERIMENT_PACKAGE\12_figure_source_data\Fig3_method_framework\source_data.csv,Step 3: CAMS-derived gridded composition,PASS,Causal atmospheric predictors,Current/lag/rolling atmospheric context
+frozen_source_component,C:\Users\DELL\Desktop\多数据源数据\2026071901\T2_FINAL_EXPERIMENT_PACKAGE\12_figure_source_data\Fig3_method_framework\source_data.csv,Step 4: Road context,PASS,Spatial/context predictors,Verified corridor order and static attributes
+frozen_source_component,C:\Users\DELL\Desktop\多数据源数据\2026071901\T2_FINAL_EXPERIMENT_PACKAGE\12_figure_source_data\Fig3_method_framework\source_data.csv,Step 5: Fixed chronological protocol,PASS,No future leakage,Train/tuning/calibration/test; target-boundary purge
+frozen_source_component,C:\Users\DELL\Desktop\多数据源数据\2026071901\T2_FINAL_EXPERIMENT_PACKAGE\12_figure_source_data\Fig3_method_framework\source_data.csv,Step 6: Models and evaluation,PASS,Prediction-level evidence,"E0-E7, scenarios, interactions, block bootstrap"
+protocol_validation,source_data.csv,Ordered framework components,PASS,Four-stage left-to-right framework,Six source rows retained in their frozen order.
+protocol_validation,study_config_final.yaml,Point-speed horizons,PASS,"1 h, 3 h and 6 h horizon strip","Targets are future point speeds, not aggregated speeds."
+protocol_validation,study_config_final.yaml,Traffic missing-data control,PASS,Causal LOCF + missingness diagnostics,No future traffic value is permitted for origin-time imputation.
+protocol_validation,study_config_final.yaml,Environmental imputation,PASS,Training-only environmental imputation,Any required environmental imputation uses training-only statistics.
+protocol_validation,study_config_final.yaml,Weather source naming,PASS,Open-Meteo rainfall and meteorology,No fixed ECMWF IFS claim is made.
+protocol_validation,study_config_final.yaml,Atmospheric source naming,PASS,CAMS-derived gridded atmospheric composition,The figure does not describe these grids as monitoring stations.
+protocol_validation,study_config_final.yaml,Fixed chronological split,PASS,No future leakage safeguard,The frozen protocol includes target-boundary purging.
+protocol_validation,study_config_final.yaml,Calibration isolation,PASS,Calibration excludes test safeguard,The test set is not used for conformal calibration.
+protocol_validation,model_manifest.yaml,Frozen E1-E5 backbone,PASS,E1-E5 experiment ladder,The tabular backbone and feature families were frozen before test evaluation.
+protocol_validation,source_data.csv,E0-E7 and evidence analysis,PASS,Experiment ladder and evidence endpoints,"The framework spans baselines, multimodal models, ablation and uncertainty quantification."
+protocol_validation,study_config_final.yaml,Statistical protocol,PASS,Block bootstrap + Wilcoxon + Holm,Statistical evidence is paired and multiple-comparison adjusted.

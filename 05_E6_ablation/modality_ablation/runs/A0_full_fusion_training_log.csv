@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,best_iteration,elapsed_seconds,test_used_for_selection
+modality_ablation,A0_full_fusion,1,42,frozen_E5_full_fusion,frozen,0,False
+modality_ablation,A0_full_fusion,1,2025,frozen_E5_full_fusion,frozen,0,False
+modality_ablation,A0_full_fusion,1,20260623,frozen_E5_full_fusion,frozen,0,False
+modality_ablation,A0_full_fusion,1,20260715,frozen_E5_full_fusion,frozen,0,False
+modality_ablation,A0_full_fusion,1,20260718,frozen_E5_full_fusion,frozen,0,False
+modality_ablation,A0_full_fusion,3,42,frozen_E5_full_fusion,frozen,0,False
+modality_ablation,A0_full_fusion,3,2025,frozen_E5_full_fusion,frozen,0,False
+modality_ablation,A0_full_fusion,3,20260623,frozen_E5_full_fusion,frozen,0,False
+modality_ablation,A0_full_fusion,3,20260715,frozen_E5_full_fusion,frozen,0,False
+modality_ablation,A0_full_fusion,3,20260718,frozen_E5_full_fusion,frozen,0,False
+modality_ablation,A0_full_fusion,6,42,frozen_E5_full_fusion,frozen,0,False
+modality_ablation,A0_full_fusion,6,2025,frozen_E5_full_fusion,frozen,0,False
+modality_ablation,A0_full_fusion,6,20260623,frozen_E5_full_fusion,frozen,0,False
+modality_ablation,A0_full_fusion,6,20260715,frozen_E5_full_fusion,frozen,0,False
+modality_ablation,A0_full_fusion,6,20260718,frozen_E5_full_fusion,frozen,0,False

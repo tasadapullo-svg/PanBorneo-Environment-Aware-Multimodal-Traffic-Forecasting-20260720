@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,train_samples,validation_samples,test_samples,input_feature_count,encoded_feature_count,best_iteration,best_validation_MAE,elapsed_seconds,test_used_for_selection
+modality_ablation,A5_without_reliability,1,42,new_fixed_protocol_fit,68963,14337,13641,85,143,205,0.8775390482118475,1.5280022621154785,False
+modality_ablation,A5_without_reliability,1,2025,new_fixed_protocol_fit,68963,14337,13641,85,143,280,0.8756358387530611,1.9209747314453125,False
+modality_ablation,A5_without_reliability,1,20260623,new_fixed_protocol_fit,68963,14337,13641,85,143,227,0.885887701291706,1.620999813079834,False
+modality_ablation,A5_without_reliability,1,20260715,new_fixed_protocol_fit,68963,14337,13641,85,143,248,0.8746144492364939,1.7600023746490479,False
+modality_ablation,A5_without_reliability,1,20260718,new_fixed_protocol_fit,68963,14337,13641,85,143,240,0.8728880981043009,1.751924991607666,False
+modality_ablation,A5_without_reliability,3,42,new_fixed_protocol_fit,68870,14235,13539,85,143,198,1.01492921864731,1.4999959468841553,False
+modality_ablation,A5_without_reliability,3,2025,new_fixed_protocol_fit,68870,14235,13539,85,143,211,1.002070613656079,1.5460004806518555,False
+modality_ablation,A5_without_reliability,3,20260623,new_fixed_protocol_fit,68870,14235,13539,85,143,267,1.0136132489851915,1.8370721340179443,False
+modality_ablation,A5_without_reliability,3,20260715,new_fixed_protocol_fit,68870,14235,13539,85,143,197,1.0155564142353795,1.5260846614837646,False
+modality_ablation,A5_without_reliability,3,20260718,new_fixed_protocol_fit,68870,14235,13539,85,143,219,1.005404885375462,1.6799993515014648,False
+modality_ablation,A5_without_reliability,6,42,new_fixed_protocol_fit,68717,14084,13387,85,143,251,1.0347539557208056,1.752002477645874,False
+modality_ablation,A5_without_reliability,6,2025,new_fixed_protocol_fit,68717,14084,13387,85,143,217,1.0185217464623617,1.6019961833953857,False
+modality_ablation,A5_without_reliability,6,20260623,new_fixed_protocol_fit,68717,14084,13387,85,143,211,1.03939500040576,1.578078269958496,False
+modality_ablation,A5_without_reliability,6,20260715,new_fixed_protocol_fit,68717,14084,13387,85,143,216,1.0169705932907542,1.6220107078552246,False
+modality_ablation,A5_without_reliability,6,20260718,new_fixed_protocol_fit,68717,14084,13387,85,143,201,1.0269778238646994,1.5040743350982666,False

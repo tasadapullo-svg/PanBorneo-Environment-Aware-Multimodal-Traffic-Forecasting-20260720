@@ -1,0 +1,27 @@
+experiment: E0_baselines_submission_grade
+old_tcn: preserved in archive/undertrained_tcn and excluded from main E0
+models:
+- Formal_TCN_24h_causal
+- Historical_Average
+- Persistence
+- Ridge
+- Seasonal_Historical_Average
+- XGBoost_traffic_baseline
+horizons:
+- 1
+- 3
+- 6
+seeds:
+- 42
+- 2025
+- 20260623
+- 20260715
+- 20260718
+formal_tcn:
+  history_hours: 24
+  max_epochs: 100
+  early_stopping_patience: 15
+  scheduler: ReduceLROnPlateau
+  gradient_clipping_norm: 1.0
+  checkpoint_selection: validation MAE
+  test_used_for_selection: false

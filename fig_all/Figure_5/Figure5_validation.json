@@ -1,0 +1,67 @@
+{
+  "figure": "Figure 5: Selective environmental value and feature-group importance",
+  "generated_at": "2026-07-19T12:16:32.747814+08:00",
+  "sources": {
+    "statistical_tests": "C:\\Users\\DELL\\Desktop\\多数据源数据\\2026071901\\T2_FINAL_EXPERIMENT_PACKAGE\\10_statistical_tests\\holm_corrected_results.csv",
+    "feature_importance": "C:\\Users\\DELL\\Desktop\\多数据源数据\\2026071901\\T2_FINAL_EXPERIMENT_PACKAGE\\11_interpretability\\feature_importance_by_scenario.csv"
+  },
+  "source_sha256": {
+    "statistical_tests": "a93c8e9c8ed1a5b5e2d8aa52970ee3842ae6481311c8475f6ae9ce8b10645157",
+    "feature_importance": "ed9e6e1c296c6fe73c1019005fcd45776fafc436c63b4649a19cf859aed59553"
+  },
+  "panel_a": {
+    "rows": 15,
+    "comparators": [
+      "E2_rainfall",
+      "E3_meteorology",
+      "E4_atmospheric",
+      "E5_full_fusion",
+      "Best_selective_environmental"
+    ],
+    "horizons_hours": [
+      1,
+      3,
+      6
+    ],
+    "delta_convention": "comparator minus E1; negative is better",
+    "confidence_interval": "95% moving-block bootstrap CI",
+    "holm_significant_count": 0,
+    "significance_stars": false,
+    "checks": [
+      "All five comparators and three horizons are uniquely present.",
+      "Delta MAE is uniformly comparator minus E1; negative is better.",
+      "Every point estimate lies within its moving-block bootstrap CI.",
+      "Confidence intervals use the frozen 24-hour moving-block bootstrap with 5000 repetitions.",
+      "Holm-adjusted significant comparisons: 0 of 15."
+    ]
+  },
+  "panel_b": {
+    "scenario_filter": "Overall_test",
+    "rows": 21,
+    "feature_groups": [
+      "Traffic",
+      "Calendar",
+      "Road",
+      "Reliability",
+      "Rainfall",
+      "Meteorology",
+      "Atmospheric"
+    ],
+    "horizons_hours": [
+      1,
+      3,
+      6
+    ],
+    "selected_x_scale": "log",
+    "max_to_min_mean_importance_ratio": 2039.5575877075505,
+    "scale_selection_reason": "all values are strictly positive and max/min ≥ 100",
+    "ordering_rule": "descending mean importance across 1 h, 3 h and 6 h",
+    "checks": [
+      "Overall_test contains seven feature groups at all three horizons.",
+      "All permutation-importance means and SDs are aggregated across five seeds.",
+      "Importance x-axis selected automatically: log (all values are strictly positive and max/min ≥ 100).",
+      "Feature groups share the same Overall_test sample count within each horizon."
+    ]
+  },
+  "all_checks_passed": true
+}

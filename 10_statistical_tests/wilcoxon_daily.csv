@@ -1,0 +1,16 @@
+comparison,comparator,horizon,delta_MAE,relative_change_percent,daily_pairs,wilcoxon_statistic,p_value,effect_size,effect_size_definition,p_adjusted,significant
+E1_vs_E2,E2_rainfall,1,0.14635942359134024,14.579488812621232,13,20.0,0.080322265625,0.5604395604395604,matched-pairs rank-biserial; positive means comparator worse,0.883544921875,False
+E1_vs_E2,E2_rainfall,3,0.14421123753972823,12.239051646197122,13,13.0,0.021484375,0.7142857142857143,matched-pairs rank-biserial; positive means comparator worse,0.322265625,False
+E1_vs_E2,E2_rainfall,6,0.2017114427811732,16.530705874084664,13,13.0,0.021484375,0.7142857142857143,matched-pairs rank-biserial; positive means comparator worse,0.322265625,False
+E1_vs_E3,E3_meteorology,1,0.031932737524464905,3.1809567028238326,13,35.0,0.497314453125,0.23076923076923078,matched-pairs rank-biserial; positive means comparator worse,1.0,False
+E1_vs_E3,E3_meteorology,3,0.05935336753448824,5.03725606286542,13,25.0,0.167724609375,0.45054945054945056,matched-pairs rank-biserial; positive means comparator worse,1.0,False
+E1_vs_E3,E3_meteorology,6,0.11608404720544735,9.513348447506695,13,13.0,0.021484375,0.7142857142857143,matched-pairs rank-biserial; positive means comparator worse,0.322265625,False
+E1_vs_E4,E4_atmospheric,1,0.1865892263390001,18.586951705691614,13,20.0,0.080322265625,0.5604395604395604,matched-pairs rank-biserial; positive means comparator worse,0.883544921875,False
+E1_vs_E4,E4_atmospheric,3,0.21278546855700767,18.058872412852182,13,29.0,0.2734375,0.3626373626373626,matched-pairs rank-biserial; positive means comparator worse,1.0,False
+E1_vs_E4,E4_atmospheric,6,0.23257076290916254,19.05969648302807,13,27.0,0.21630859375,0.4065934065934066,matched-pairs rank-biserial; positive means comparator worse,1.0,False
+E1_vs_E5,E5_full_fusion,1,0.16856323477372592,16.791305508722925,13,25.0,0.167724609375,0.45054945054945056,matched-pairs rank-biserial; positive means comparator worse,1.0,False
+E1_vs_E5,E5_full_fusion,3,0.23361316312137873,19.826496308142115,13,19.0,0.068115234375,0.5824175824175825,matched-pairs rank-biserial; positive means comparator worse,0.8173828125,False
+E1_vs_E5,E5_full_fusion,6,0.2837102571050103,23.25069291558109,13,23.0,0.127197265625,0.4945054945054945,matched-pairs rank-biserial; positive means comparator worse,1.0,False
+E1_vs_best_selective_environmental,Best_selective_environmental,1,-0.007343974999577228,-0.7315647924760029,13,33.0,0.414306640625,-0.27472527472527475,matched-pairs rank-biserial; positive means comparator worse,1.0,False
+E1_vs_best_selective_environmental,Best_selective_environmental,3,-0.004913020165625705,-0.4169627039594314,13,45.0,1.0,0.01098901098901099,matched-pairs rank-biserial; positive means comparator worse,1.0,False
+E1_vs_best_selective_environmental,Best_selective_environmental,6,0.00811962034360887,0.6654211276206301,13,40.0,0.7353515625,-0.12087912087912088,matched-pairs rank-biserial; positive means comparator worse,1.0,False

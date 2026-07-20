@@ -1,0 +1,4 @@
+split,origin_start,origin_end,node_hours,unique_hours,node_count,duplicate_node_timestamp,eligible_h1,cross_split_available_target_h1,duplicate_sample_id_h1,eligible_h3,cross_split_available_target_h3,duplicate_sample_id_h3,eligible_h6,cross_split_available_target_h6,duplicate_sample_id_h6,status
+train,2025-12-08 13:00:00,2026-02-04 06:00:00,70686,1386,51,0,68963,0,0,68870,0,0,68717,0,0,PASS
+validation,2026-02-04 07:00:00,2026-02-16 15:00:00,15147,297,51,0,14337,0,0,14235,0,0,14084,0,0,PASS
+test,2026-02-16 16:00:00,2026-02-28 23:00:00,15096,296,51,0,13641,0,0,13539,0,0,13387,0,0,PASS

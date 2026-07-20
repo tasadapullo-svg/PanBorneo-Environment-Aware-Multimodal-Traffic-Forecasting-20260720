@@ -1,0 +1,16 @@
+group,variant,horizon,seed,source,best_iteration,elapsed_seconds,test_used_for_selection
+atmospheric_ablation,P0_traffic_only,1,42,frozen_E1_traffic_only,frozen,0,False
+atmospheric_ablation,P0_traffic_only,1,2025,frozen_E1_traffic_only,frozen,0,False
+atmospheric_ablation,P0_traffic_only,1,20260623,frozen_E1_traffic_only,frozen,0,False
+atmospheric_ablation,P0_traffic_only,1,20260715,frozen_E1_traffic_only,frozen,0,False
+atmospheric_ablation,P0_traffic_only,1,20260718,frozen_E1_traffic_only,frozen,0,False
+atmospheric_ablation,P0_traffic_only,3,42,frozen_E1_traffic_only,frozen,0,False
+atmospheric_ablation,P0_traffic_only,3,2025,frozen_E1_traffic_only,frozen,0,False
+atmospheric_ablation,P0_traffic_only,3,20260623,frozen_E1_traffic_only,frozen,0,False
+atmospheric_ablation,P0_traffic_only,3,20260715,frozen_E1_traffic_only,frozen,0,False
+atmospheric_ablation,P0_traffic_only,3,20260718,frozen_E1_traffic_only,frozen,0,False
+atmospheric_ablation,P0_traffic_only,6,42,frozen_E1_traffic_only,frozen,0,False
+atmospheric_ablation,P0_traffic_only,6,2025,frozen_E1_traffic_only,frozen,0,False
+atmospheric_ablation,P0_traffic_only,6,20260623,frozen_E1_traffic_only,frozen,0,False
+atmospheric_ablation,P0_traffic_only,6,20260715,frozen_E1_traffic_only,frozen,0,False
+atmospheric_ablation,P0_traffic_only,6,20260718,frozen_E1_traffic_only,frozen,0,False

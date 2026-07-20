@@ -1,0 +1,192 @@
+project: T2 Transportmetrica B submission-grade experiments
+release_date: '2026-07-19'
+timezone: Asia/Kuching
+main_resolution: 1h
+node_count: 51
+node_order_rule: node_order_verified then corridor_km; never lexical node_id order
+target_type: point_speed
+targets:
+  h1: current_speed(t+1h)
+  h3: current_speed(t+3h)
+  h6: current_speed(t+6h)
+split_rule: fixed chronological split with horizon-boundary purge
+split_time_ranges:
+  train:
+    start: '2025-12-08 13:00:00'
+    end: '2026-02-04 06:00:00'
+    node_hours: 70686
+  validation:
+    start: '2026-02-04 07:00:00'
+    end: '2026-02-16 15:00:00'
+    node_hours: 15147
+  test:
+    start: '2026-02-16 16:00:00'
+    end: '2026-02-28 23:00:00'
+    node_hours: 15096
+uq_partition_rule: fixed predeclared validation subdivision; calibration is never
+  test
+random_seeds:
+- 42
+- 2025
+- 20260623
+- 20260715
+- 20260718
+main_metric: MAE
+auxiliary_metrics:
+- RMSE
+- sMAPE
+- R2
+traffic_missing_rule: causal last-observation-carried-forward; origin excluded when
+  no past observation exists
+environment_missing_rule: training-only median imputation where required
+weather_source: Open-Meteo Historical Weather API
+atmospheric_source: CAMS-derived gridded atmospheric composition data accessed through
+  Open-Meteo
+forbidden_descriptions:
+- fixed ECMWF IFS weather source
+- roadside air-quality observations
+- ground-station air-quality observations
+- official haze for upper-quartile pollution labels
+predictor_groups:
+  traffic:
+  - current_speed_input
+  - free_flow_speed_input
+  - current_travel_time_input
+  - tti_input
+  - speed_ratio_input
+  - speed_drop_input
+  - travel_time_delay_input
+  - speed_deficit_ratio_input
+  reliability:
+  - missing_mask
+  - gap_length_steps
+  - coverage_ratio_6h
+  - coverage_ratio_24h
+  - volatility_tti_3h
+  - volatility_tti_6h
+  - confidence_input
+  - reliability_score
+  calendar:
+  - hour_sin
+  - hour_cos
+  - dayofweek_sin
+  - dayofweek_cos
+  - is_weekend
+  - is_public_holiday
+  - is_school_holiday
+  - is_holiday_eve
+  - is_day_after_holiday
+  rainfall:
+  - precipitation
+  - rain_flag
+  - rain_lag_1h
+  - rain_lag_3h
+  - rain_lag_6h
+  - rain_sum_3h
+  - rain_sum_6h
+  - rain_sum_12h
+  - rain_sum_24h
+  - rain_max_3h
+  - rain_max_6h
+  - post_rain_1_3h
+  - post_rain_4_6h
+  - post_rain_7_12h
+  - rain_missing_flag
+  meteorology:
+  - temperature_2m
+  - relative_humidity_2m
+  - dew_point_2m
+  - surface_pressure
+  - wind_speed_10m
+  - wind_gusts_10m
+  - wind_u
+  - wind_v
+  - wind_calm_flag
+  - wind_gust_ratio
+  - wind_gust_ratio_missing_flag
+  - cloud_cover
+  - boundary_layer_height
+  - shortwave_radiation
+  - weather_missing_flag
+  atmospheric:
+  - pm2_5
+  - pm10
+  - nitrogen_dioxide
+  - carbon_monoxide
+  - ozone
+  - sulphur_dioxide
+  - aerosol_optical_depth
+  - dust
+  - pm2_5_lag_1h
+  - pm2_5_lag_3h
+  - pm2_5_lag_6h
+  - pm2_5_mean_3h
+  - pm2_5_mean_6h
+  - pm2_5_mean_24h
+  - aerosol_optical_depth_lag_1h
+  - aerosol_optical_depth_lag_3h
+  - aerosol_optical_depth_lag_6h
+  - aerosol_optical_depth_mean_3h
+  - aerosol_optical_depth_mean_6h
+  - aerosol_optical_depth_mean_24h
+  - nitrogen_dioxide_lag_1h
+  - nitrogen_dioxide_lag_3h
+  - nitrogen_dioxide_lag_6h
+  - nitrogen_dioxide_mean_3h
+  - nitrogen_dioxide_mean_6h
+  - nitrogen_dioxide_mean_24h
+  - ozone_mean_8h
+  - air_quality_missing_flag
+  road:
+  - corridor_km
+  - elevation_m
+  - road_class
+  - lane_count
+  - lane_count_missing_flag
+  - urban_rural
+  - distance_to_nearest_junction
+  - osm_bridge_tagged
+  - distance_to_settlement
+  - distance_to_major_intersection
+evaluation_only_columns:
+- upper_quartile_pm25_context
+- upper_quartile_aod_context
+- rain_with_upper_quartile_pollution
+scenario_threshold_source: pre-existing train-split p75 labels frozen before test
+  evaluation
+scenarios:
+  S1_dry: precipitation <= 0 at forecast origin
+  S2_rain: rain_flag at forecast origin
+  S3_widespread_rain: pre-existing widespread_rain_flag
+  S4_post_rain_1_3h: pre-existing post_rain_1_3h
+  S5_post_rain_4_6h: pre-existing post_rain_4_6h
+  S6_elevated_pm2_5: pre-existing upper_quartile_pm25_context; evaluation label only
+  S7_elevated_aod: pre-existing upper_quartile_aod_context; evaluation label only
+  S8_rain_elevated_atmospheric_pollution: pre-existing rain_with_upper_quartile_pollution;
+    evaluation label only
+reliability_thresholds_training_only:
+  low_upper_inclusive: 0.9765979764873493
+  high_lower_inclusive: 1.0
+  medium_rule: '> 0.9765979764873493 and < 1.0'
+  high_rule: '>= 1.0'
+  tie_handling_reason: upper-tertile value is tied at 1.0; maximum-score records define
+    High
+tcn_protocol:
+  max_epochs: 100
+  early_stopping_patience: 15
+  scheduler: ReduceLROnPlateau on validation MAE
+  gradient_clipping_norm: 1.0
+  scaling: training-only
+  checkpoint_selection: lowest validation MAE
+  test_used_for_selection: false
+statistical_protocol:
+  unit: forecast-origin mean absolute error across nodes
+  bootstrap: paired 24-hour contiguous moving-block bootstrap
+  bootstrap_repetitions: 5000
+  secondary_test: paired Wilcoxon on daily MAE
+  multiple_comparison: Holm
+generated_at: '2026-07-18T21:53:04+08:00'
+python: 3.10.20 | packaged by conda-forge | (main, Jun 11 2026, 03:28:51) [MSC v.1944
+  64 bit (AMD64)]
+platform: Windows-10-10.0.19045-SP0
+git_commit: NOT_AVAILABLE_NOT_A_GIT_WORKTREE
